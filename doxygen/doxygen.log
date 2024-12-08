@@ -1,6 +1,6 @@
 warning: source '..\include\testes\dominios\TesteDinhero.h' is not a readable file or directory... skipping.
 C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:5: warning: no uniquely matching class member found for 
-  const float TesteDinheiro::VALOR_VALIDO
+  const double TesteDinheiro::VALOR_VALIDO
 Possible candidates:
   'static const std::string TesteSenha::VALOR_VALIDO' at line 11 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
   'static const std::string TesteHorario::VALOR_VALIDO' at line 11 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
@@ -10,7 +10,7 @@ Possible candidates:
   'static const int TesteDuracao::VALOR_VALIDO' at line 11 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
   'static const std::string TesteCodigo::VALOR_VALIDO' at line 11 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
 C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:6: warning: no uniquely matching class member found for 
-  const float TesteDinheiro::VALOR_INVALIDO
+  const double TesteDinheiro::VALOR_INVALIDO
 Possible candidates:
   'static const std::string TesteSenha::VALOR_INVALIDO' at line 12 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
   'static const std::string TesteHorario::VALOR_INVALIDO' at line 12 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
@@ -123,7 +123,9 @@ C:/projetos/Trabalho_1_TP1/include/entidades/Hospedagem.h:64: warning: argument 
 C:/projetos/Trabalho_1_TP1/include/entidades/Hospedagem.h:64: warning: The following parameter of Hospedagem::setAvaliacao(const Avaliacao &avaliacao) is not documented:
   parameter 'avaliacao'
 C:/projetos/Trabalho_1_TP1/include/entidades/Hospedagem.h:51: warning: found documented return type for Hospedagem::setCodigo that does not return anything
-C:/projetos/Trabalho_1_TP1/include/entidades/Hospedagem.h:60: warning: argument 'nome' of command @param is not found in the argument list of Hospedagem::setDinheiro(Dinheiro)
+C:/projetos/Trabalho_1_TP1/include/entidades/Hospedagem.h:60: warning: argument 'nome' of command @param is not found in the argument list of Hospedagem::setDinheiro(const Dinheiro &dinheiro)
+C:/projetos/Trabalho_1_TP1/include/entidades/Hospedagem.h:60: warning: The following parameter of Hospedagem::setDinheiro(const Dinheiro &dinheiro) is not documented:
+  parameter 'dinheiro'
 C:/projetos/Trabalho_1_TP1/include/entidades/Hospedagem.h:56: warning: argument 'codigo' of command @param is not found in the argument list of Hospedagem::setNome(const Nome &nome)
 C:/projetos/Trabalho_1_TP1/include/entidades/Hospedagem.h:56: warning: The following parameter of Hospedagem::setNome(const Nome &nome) is not documented:
   parameter 'nome'

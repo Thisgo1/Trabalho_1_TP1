@@ -131,9 +131,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a21ea25a84d01d59e1f3123d7957686d6" id="r_a21ea25a84d01d59e1f3123d7957686d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a21ea25a84d01d59e1f3123d7957686d6">setNome</a> (const <a class="el" href="class_nome.html">Nome</a> &amp;nome)</td></tr>
 <tr class="memdesc:a21ea25a84d01d59e1f3123d7957686d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">O metodo atribui um valor de código.  <br /></td></tr>
 <tr class="separator:a21ea25a84d01d59e1f3123d7957686d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ffedcc08ed158d89e58ea6614d12a26" id="r_a9ffedcc08ed158d89e58ea6614d12a26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ffedcc08ed158d89e58ea6614d12a26">setDinheiro</a> (<a class="el" href="class_dinheiro.html">Dinheiro</a>)</td></tr>
-<tr class="memdesc:a9ffedcc08ed158d89e58ea6614d12a26"><td class="mdescLeft">&#160;</td><td class="mdescRight">O metodo atribui um valor de nome.  <br /></td></tr>
-<tr class="separator:a9ffedcc08ed158d89e58ea6614d12a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc6f18bd120e7536653948609f2bc7d" id="r_a6fc6f18bd120e7536653948609f2bc7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fc6f18bd120e7536653948609f2bc7d">setDinheiro</a> (const <a class="el" href="class_dinheiro.html">Dinheiro</a> &amp;dinheiro)</td></tr>
+<tr class="memdesc:a6fc6f18bd120e7536653948609f2bc7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">O metodo atribui um valor de nome.  <br /></td></tr>
+<tr class="separator:a6fc6f18bd120e7536653948609f2bc7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0dcc2dbab2f623ae27d555fcbcd0b562" id="r_a0dcc2dbab2f623ae27d555fcbcd0b562"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dcc2dbab2f623ae27d555fcbcd0b562">setAvaliacao</a> (const <a class="el" href="class_avaliacao.html">Avaliacao</a> &amp;avaliacao)</td></tr>
 <tr class="memdesc:a0dcc2dbab2f623ae27d555fcbcd0b562"><td class="mdescLeft">&#160;</td><td class="mdescRight">O metodo atribui um valor de dinheiro.  <br /></td></tr>
 <tr class="separator:a0dcc2dbab2f623ae27d555fcbcd0b562"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,7 +165,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Retorna o valor do dinheiro. </p>
-<dl class="section return"><dt>Returns</dt><dd>Um float entre 0.00 e 200000.00. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Um double entre 0.00 e 200000.00. </dd></dl>
 
 </div>
 </div>
@@ -203,7 +203,7 @@ Public Member Functions</h2></td></tr>
   <table class="exception">
     <tr><td class="paramname">invalid_argument</td><td>caso codigo não seja uma string de 6 caracteres. </td></tr>
     <tr><td class="paramname">invalid_argument</td><td>caso nome não seja uma string de 1 a 30 caracteres. </td></tr>
-    <tr><td class="paramname">invalid_argument</td><td>caso dinheiro caso o valor não seja um float entre 0.00 e 200000.00. </td></tr>
+    <tr><td class="paramname">invalid_argument</td><td>caso dinheiro caso o valor não seja um double entre 0.00 e 200000.00. </td></tr>
     <tr><td class="paramname">invalid_argument</td><td>caso avaliacao caso o valor passado não esteja entre 0 e 5. </td></tr>
   </table>
   </dd>
@@ -293,7 +293,7 @@ Public Member Functions</h2></td></tr>
 <p>O metodo atribui um valor de dinheiro. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dinheiro</td><td>um float entre 0.00 e 200000.00. Ou uma string com um valor no mesmo range. </td></tr>
+    <tr><td class="paramname">dinheiro</td><td>um double entre 0.00 e 200000.00. Ou uma string com um valor no mesmo range. </td></tr>
   </table>
   </dd>
 </dl>
@@ -328,8 +328,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9ffedcc08ed158d89e58ea6614d12a26" name="a9ffedcc08ed158d89e58ea6614d12a26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ffedcc08ed158d89e58ea6614d12a26">&#9670;&#160;</a></span>setDinheiro()</h2>
+<a id="a6fc6f18bd120e7536653948609f2bc7d" name="a6fc6f18bd120e7536653948609f2bc7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fc6f18bd120e7536653948609f2bc7d">&#9670;&#160;</a></span>setDinheiro()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,7 +340,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void Hospedagem::setDinheiro </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_dinheiro.html">Dinheiro</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="class_dinheiro.html">Dinheiro</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>dinheiro</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

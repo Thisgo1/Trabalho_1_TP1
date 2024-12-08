@@ -10,5 +10,5 @@ var searchData=
   ['gethorario_7',['getHorario',['../class_horario.html#a2c3f8eebf9ed6e84547734421d8f29a5',1,'Horario::getHorario()'],['../class_atividade.html#abc409d2348adfb1a14dc88e1b77f4705',1,'Atividade::getHorario()']]],
   ['getnome_8',['getNome',['../class_viagem.html#a94988065b6782f723dfed72bd287c934',1,'Viagem::getNome()'],['../class_nome.html#a2455723d9e86952aa9506f13d4ef884f',1,'Nome::getNome()'],['../class_destino.html#a5a9dc21d18d4888b647ef24542d34325',1,'Destino::getNome()'],['../class_atividade.html#ac0db6bd4d5dc41ce57cdabeb2ab01d19',1,'Atividade::getNome()'],['../class_hospedagem.html#acd15abdd2f7f04dcd5f93c466e9f9800',1,'Hospedagem::getNome()']]],
   ['getsenha_9',['getSenha',['../class_conta.html#aa36f37646e006dc200f82bc9f384d79b',1,'Conta::getSenha()'],['../class_senha.html#a57bec8070041116d7761e21bb867ae25',1,'Senha::getSenha()']]],
-  ['getvalor_10',['getValor',['../class_dinheiro.html#af1ec499768686c152ea490204fbc4e64',1,'Dinheiro']]]
+  ['getvalor_10',['getValor',['../class_dinheiro.html#a8fe20cb2244f9fc2b5dc843646f9e717',1,'Dinheiro']]]
 ];
