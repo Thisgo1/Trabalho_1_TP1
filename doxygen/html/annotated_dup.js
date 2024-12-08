@@ -1,0 +1,28 @@
+var annotated_dup =
+[
+    [ "Atividade", "class_atividade.html", "class_atividade" ],
+    [ "Avaliacao", "class_avaliacao.html", "class_avaliacao" ],
+    [ "Codigo", "class_codigo.html", "class_codigo" ],
+    [ "Conta", "class_conta.html", "class_conta" ],
+    [ "Data", "class_data.html", "class_data" ],
+    [ "Destino", "class_destino.html", "class_destino" ],
+    [ "Dinheiro", "class_dinheiro.html", "class_dinheiro" ],
+    [ "Duracao", "class_duracao.html", "class_duracao" ],
+    [ "Horario", "class_horario.html", "class_horario" ],
+    [ "Hospedagem", "class_hospedagem.html", "class_hospedagem" ],
+    [ "Nome", "class_nome.html", "class_nome" ],
+    [ "Senha", "class_senha.html", "class_senha" ],
+    [ "TesteAtividade", "class_teste_atividade.html", "class_teste_atividade" ],
+    [ "TesteAvaliacao", "class_teste_avaliacao.html", "class_teste_avaliacao" ],
+    [ "TesteCodigo", "class_teste_codigo.html", "class_teste_codigo" ],
+    [ "TesteConta", "class_teste_conta.html", "class_teste_conta" ],
+    [ "TesteData", "class_teste_data.html", "class_teste_data" ],
+    [ "TesteDestino", "class_teste_destino.html", "class_teste_destino" ],
+    [ "TesteDuracao", "class_teste_duracao.html", "class_teste_duracao" ],
+    [ "TesteHorario", "class_teste_horario.html", "class_teste_horario" ],
+    [ "TesteHospedagem", "class_teste_hospedagem.html", "class_teste_hospedagem" ],
+    [ "TesteNome", "class_teste_nome.html", "class_teste_nome" ],
+    [ "TesteSenha", "class_teste_senha.html", "class_teste_senha" ],
+    [ "TesteViagem", "class_teste_viagem.html", "class_teste_viagem" ],
+    [ "Viagem", "class_viagem.html", "class_viagem" ]
+];

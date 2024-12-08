@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Trabalho_1_TP1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Trabalho_1_TP1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="./" />
+					<Add directory="headers" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Trabalho_1_TP1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./" />
+					<Add directory="headers" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Trabalho_1_TP1.cbp" />
+		<Unit filename="Trabalho_1_TP1.depend" />
+		<Unit filename="Trabalho_1_TP1.layout" />
+		<Unit filename="cpp/dominios/Avaliacao.cpp" />
+		<Unit filename="cpp/dominios/Codigo.cpp" />
+		<Unit filename="cpp/dominios/Data.cpp" />
+		<Unit filename="cpp/dominios/Dinheiro.cpp" />
+		<Unit filename="cpp/dominios/Duracao.cpp" />
+		<Unit filename="cpp/dominios/Horario.cpp" />
+		<Unit filename="cpp/dominios/Nome.cpp" />
+		<Unit filename="cpp/dominios/Senha.cpp" />
+		<Unit filename="cpp/entidades/Atividade.cpp" />
+		<Unit filename="cpp/entidades/Conta.cpp" />
+		<Unit filename="cpp/entidades/Destino.cpp" />
+		<Unit filename="cpp/entidades/Hospedagem.cpp" />
+		<Unit filename="cpp/entidades/Viagem.cpp" />
+		<Unit filename="cpp/testes/dominios/TesteAvaliacao.cpp" />
+		<Unit filename="cpp/testes/dominios/TesteCodigo.cpp" />
+		<Unit filename="cpp/testes/dominios/TesteData.cpp" />
+		<Unit filename="cpp/testes/dominios/TesteDinhero.cpp" />
+		<Unit filename="cpp/testes/dominios/TesteDuracao.cpp" />
+		<Unit filename="cpp/testes/dominios/TesteHorario.cpp" />
+		<Unit filename="cpp/testes/dominios/TesteNome.cpp" />
+		<Unit filename="cpp/testes/dominios/TesteSenha.cpp" />
+		<Unit filename="cpp/testes/entidades/TesteAtividade.cpp" />
+		<Unit filename="cpp/testes/entidades/TesteConta.cpp" />
+		<Unit filename="cpp/testes/entidades/TesteDestino.cpp" />
+		<Unit filename="cpp/testes/entidades/TesteHospedagem.cpp" />
+		<Unit filename="cpp/testes/entidades/TesteViagem.cpp" />
+		<Unit filename="include/dominios/Avaliacao.h" />
+		<Unit filename="include/dominios/Codigo.h" />
+		<Unit filename="include/dominios/Data.h" />
+		<Unit filename="include/dominios/Dinheiro.h" />
+		<Unit filename="include/dominios/Duracao.h" />
+		<Unit filename="include/dominios/Horario.h" />
+		<Unit filename="include/dominios/Nome.h" />
+		<Unit filename="include/dominios/Senha.h" />
+		<Unit filename="include/entidades/Atividade.h" />
+		<Unit filename="include/entidades/Conta.h" />
+		<Unit filename="include/entidades/Destino.h" />
+		<Unit filename="include/entidades/Hospedagem.h" />
+		<Unit filename="include/entidades/Viagem.h" />
+		<Unit filename="include/testes/dominios/TesteAvaliacao.h" />
+		<Unit filename="include/testes/dominios/TesteCodigo.h" />
+		<Unit filename="include/testes/dominios/TesteData.h" />
+		<Unit filename="include/testes/dominios/TesteDinhero.h" />
+		<Unit filename="include/testes/dominios/TesteDuracao.h" />
+		<Unit filename="include/testes/dominios/TesteHorario.h" />
+		<Unit filename="include/testes/dominios/TesteNome.h" />
+		<Unit filename="include/testes/dominios/TesteSenha.h" />
+		<Unit filename="include/testes/entidades/TesteAtividade.h" />
+		<Unit filename="include/testes/entidades/TesteConta.h" />
+		<Unit filename="include/testes/entidades/TesteDestino.h" />
+		<Unit filename="include/testes/entidades/TesteHospedagem.h" />
+		<Unit filename="include/testes/entidades/TesteViagem.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<DoxyBlocks>
+				<comment_style block="2" line="2" />
+				<doxyfile_project output_language="Portuguese" />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general use_at_in_tags="1" />
+			</DoxyBlocks>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
