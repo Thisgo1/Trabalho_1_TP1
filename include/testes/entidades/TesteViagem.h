@@ -3,6 +3,8 @@
 
 #include "../../entidades/Viagem.h"
 
+// Aluno: Thiago Silva Ribeiro - 202037702
+
 /// @brief Classe que testa a validação da Entidade de Viagem.
 
 class TesteViagem

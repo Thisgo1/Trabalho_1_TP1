@@ -3,6 +3,8 @@
 
 #include "../../dominios/Duracao.h"
 
+// Aluno: Thiago Silva Ribeiro - 202037702
+
 /// @brief Classe que testa a validação do domínio de Duração, por meio de um valor válido e um inválido.
 
 class TesteDuracao

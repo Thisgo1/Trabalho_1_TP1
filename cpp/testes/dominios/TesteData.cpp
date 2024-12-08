@@ -1,6 +1,10 @@
 #include "../include/testes/dominios/TesteData.h"
 #include <stdexcept>
 
+// Aluno: Thiago Silva Ribeiro - 202037702
+
+using namespace std;
+
 /// @brief Declaração de valores válidos para data.
 const std::string TesteData::VALOR_VALIDO = "12/12/2020";
 const std::string TesteData::VALOR_INVALIDO = "12/12/20";

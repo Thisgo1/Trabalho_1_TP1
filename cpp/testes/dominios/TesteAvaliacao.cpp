@@ -1,6 +1,10 @@
 #include "../include/testes/dominios/TesteAvaliacao.h"
 #include <stdexcept>
 
+//Aluno: Thiago Silva Ribeiro - 202037702
+
+using namespace std;
+
 /// @brief Declaração de valores válidos para avaliação.
 const int TesteAvaliacao::VALOR_VALIDO = 5;
 const int TesteAvaliacao::VALOR_INVALIDO = 6;

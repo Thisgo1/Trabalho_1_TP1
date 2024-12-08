@@ -1,6 +1,10 @@
 #include "../include/testes/dominios/TesteNome.h"
 #include <stdexcept>
 
+// Aluno: Thiago Silva Ribeiro - 202037702
+
+using namespace std;
+
 /// @brief Declaração de valores válidos para nome.
 const std::string TesteNome::VALOR_VALIDO = "Joao";
 const std::string TesteNome::VALOR_INVALIDO = "";

@@ -1,5 +1,9 @@
 #include "../include/testes/entidades/TesteDestino.h"
 
+// Aluno: Thiago Silva Ribeiro - 202037702
+
+using namespace std;
+
 /// @brief Declaração de valores válidos para destino.
 const std::string TesteDestino::CODIGO_VALIDO = "ABC123";
 const std::string TesteDestino::NOME_VALIDO = "Sao Paulo";

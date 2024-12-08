@@ -1,5 +1,8 @@
 #include "../include/testes/entidades/TesteViagem.h"
 
+// Aluno: Thiago Silva Ribeiro - 202037702
+
+using namespace std;
 
 /// @brief Declaração de valores válidos para viagem.
 

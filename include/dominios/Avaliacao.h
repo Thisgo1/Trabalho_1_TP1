@@ -1,7 +1,7 @@
 #ifndef AVALIACAO_H
 #define AVALIACAO_H
 
-#include <regex>
+#include <stdexcept>
 
 //Aluno: Thiago Silva Ribeiro - 202037702
 

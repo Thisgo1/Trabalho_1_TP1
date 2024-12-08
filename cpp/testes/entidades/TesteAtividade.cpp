@@ -1,5 +1,9 @@
 #include "../include/testes/entidades/TesteAtividade.h"
 
+// Aluno: Thiago Silva Ribeiro - 202037702
+
+using namespace std;
+
 /// @brief Declaração de valores válidos para atividade.
 const std::string TesteAtividade::CODIGO_VALIDO = "rapel1";
 const std::string TesteAtividade::NOME_VALIDO = "Rapel";

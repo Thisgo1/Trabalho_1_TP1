@@ -3,6 +3,8 @@
 
 #include "../../dominios/Horario.h"
 
+// Aluno: Thiago Silva Ribeiro - 202037702
+
 /// @brief Classe que testa a validação do domínio de Horário, por meio de um valor válido e um inválido.
 
 class TesteHorario

@@ -1,5 +1,7 @@
 #include "../include/testes/entidades/TesteHospedagem.h"
 
+// Aluno: Thiago Silva Ribeiro - 202037702
+
 using namespace std;
 
 const std::string TesteHospedagem::CODIGO_VALIDO = "ABC123";

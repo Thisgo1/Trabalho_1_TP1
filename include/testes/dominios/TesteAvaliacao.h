@@ -3,6 +3,8 @@
 
 #include "../../dominios/Avaliacao.h"
 
+// Aluno: Thiago Silva Ribeiro - 202037702
+
 /// @brief Classe que testa a validação do domínio de Avaliação, por meio de um valor válido e um inválido.
 
 class TesteAvaliacao

@@ -1,6 +1,10 @@
 #include "../include/testes/dominios/TesteDuracao.h"
 #include <stdexcept>
 
+// Aluno: Thiago Silva Ribeiro - 202037702
+
+using namespace std;
+
 /// @brief Declaração de valores válidos para duração.
 const int TesteDuracao::VALOR_VALIDO = 120;
 const int TesteDuracao::VALOR_INVALIDO = 361;

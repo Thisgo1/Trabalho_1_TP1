@@ -30,6 +30,8 @@
 
 #include <iostream>
 
+// Aluno: Thiago Silva Ribeiro - 202037702
+
 // Teste unitarios de dominios
 #include "include\testes\dominios\TesteAvaliacao.h"
 #include "include\testes\dominios\TesteCodigo.h"

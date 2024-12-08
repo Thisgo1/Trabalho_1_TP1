@@ -1,6 +1,10 @@
 #include "../include/testes/dominios/TesteDinheiro.h"
 #include <stdexcept>
 
+// Aluno: Thiago Silva Ribeiro - 202037702
+
+using namespace std;
+
 /// @brief Declaração de valores válidos para dinheiro.
 const double TesteDinheiro::VALOR_VALIDO = 100.00;
 const double TesteDinheiro::VALOR_INVALIDO = -1000.00;

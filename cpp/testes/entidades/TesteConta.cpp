@@ -1,5 +1,9 @@
 #include "../include/testes/entidades/TesteConta.h"
 
+// Aluno: Thiago Silva Ribeiro - 202037702
+
+using namespace std;
+
 /// @brief  Declaração de valores válidos para código e senha.
 const std::string TesteConta::CODIGO_VALIDO = "ABC123";
 const std::string TesteConta::CODIGO_INVALIDO = "";

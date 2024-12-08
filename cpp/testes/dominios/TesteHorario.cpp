@@ -1,6 +1,10 @@
 #include "../include/testes/dominios/TesteHorario.h"
 #include <stdexcept>
 
+// Aluno: Thiago Silva Ribeiro - 202037702
+
+using namespace std;
+
 /// @brief Declaração de valores válidos para horário.
 const std::string TesteHorario::VALOR_VALIDO = "12:00";
 const std::string TesteHorario::VALOR_INVALIDO = "12:60";

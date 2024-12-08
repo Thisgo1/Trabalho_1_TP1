@@ -1,6 +1,10 @@
 #include "../include/testes/dominios/TesteCodigo.h"
 #include <stdexcept>
 
+// Aluno: Thiago Silva Ribeiro - 202037702
+
+using namespace std;
+
 /// @brief Declaração de valores válidos para código.
 const std::string TesteCodigo::VALOR_VALIDO = "AvC312";
 const std::string TesteCodigo::VALOR_INVALIDO = "12";
