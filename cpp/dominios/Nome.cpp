@@ -2,5 +2,5 @@
 
 Nome::Nome()
 {
-    //ctor
+    // ctor
 }

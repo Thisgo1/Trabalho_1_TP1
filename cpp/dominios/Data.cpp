@@ -2,9 +2,9 @@
 
 Data::Data()
 {
-    //ctor
+    // ctor
 }
 Data::~Data()
 {
-    //dtor
+    // dtor
 }

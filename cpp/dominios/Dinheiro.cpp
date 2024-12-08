@@ -2,5 +2,5 @@
 
 Dinheiro::Dinheiro()
 {
-    //ctor
+    // ctor
 }

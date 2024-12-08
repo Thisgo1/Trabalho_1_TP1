@@ -2,10 +2,10 @@
 
 Conta::Conta()
 {
-    //ctor
+    // ctor
 }
 
 Conta::~Conta()
 {
-    //dtor
+    // dtor
 }

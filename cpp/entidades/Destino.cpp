@@ -2,10 +2,10 @@
 
 Destino::Destino()
 {
-    //ctor
+    // ctor
 }
 
 Destino::~Destino()
 {
-    //dtor
+    // dtor
 }

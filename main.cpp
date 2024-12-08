@@ -1,3 +1,11 @@
+///@mainpage Sistema de Agência de Viagens
+///
+///@section intro_sec Introdução
+/// Esse projeto visa implementar uma biblioteca de classes para um sistema de agência de viagens.
+/// O sistema é composto por classes de domínio e entidades, que são responsáveis por armazenar e manipular informações sobre viagens, atividades, destinos, hospedagens e contas.
+///@section creditos_sec Créditos do Projeto
+/// Thiago Silva Ribeiro - 202037702.
+
 #include <iostream>
 
 // Teste unitarios de dominios
@@ -16,6 +24,8 @@
 #include "include\testes\entidades\TesteHospedagem.h"
 #include "include\testes\entidades\TesteDestino.h"
 #include "include\testes\entidades\TesteViagem.h"
+
+/// @brief Função principal que executa os testes unitários dos domínios e entidades .
 
 int main()
 {

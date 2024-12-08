@@ -1,143 +1,143 @@
 warning: source '..\include\testes\dominios\TesteDinhero.h' is not a readable file or directory... skipping.
-C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:5: warning: no uniquely matching class member found for 
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:5: warning: no uniquely matching class member found for 
   const double TesteDinheiro::VALOR_VALIDO
 Possible candidates:
-  'static const std::string TesteSenha::VALOR_VALIDO' at line 11 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
-  'static const std::string TesteHorario::VALOR_VALIDO' at line 11 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
-  'static const std::string TesteNome::VALOR_VALIDO' at line 11 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
-  'static const int TesteAvaliacao::VALOR_VALIDO' at line 11 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
-  'static const std::string TesteData::VALOR_VALIDO' at line 11 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
-  'static const int TesteDuracao::VALOR_VALIDO' at line 11 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
-  'static const std::string TesteCodigo::VALOR_VALIDO' at line 11 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
-C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:6: warning: no uniquely matching class member found for 
+  'static const std::string TesteSenha::VALOR_VALIDO' at line 11 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
+  'static const std::string TesteHorario::VALOR_VALIDO' at line 11 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
+  'static const std::string TesteNome::VALOR_VALIDO' at line 11 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
+  'static const int TesteAvaliacao::VALOR_VALIDO' at line 11 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
+  'static const std::string TesteData::VALOR_VALIDO' at line 11 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteData.h
+  'static const int TesteDuracao::VALOR_VALIDO' at line 11 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
+  'static const std::string TesteCodigo::VALOR_VALIDO' at line 11 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:6: warning: no uniquely matching class member found for 
   const double TesteDinheiro::VALOR_INVALIDO
 Possible candidates:
-  'static const std::string TesteSenha::VALOR_INVALIDO' at line 12 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
-  'static const std::string TesteHorario::VALOR_INVALIDO' at line 12 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
-  'static const std::string TesteNome::VALOR_INVALIDO' at line 12 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
-  'static const int TesteAvaliacao::VALOR_INVALIDO' at line 12 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
-  'static const std::string TesteData::VALOR_INVALIDO' at line 12 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
-  'static const int TesteDuracao::VALOR_INVALIDO' at line 12 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
-  'static const std::string TesteCodigo::VALOR_INVALIDO' at line 12 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
-C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:9: warning: no uniquely matching class member found for 
+  'static const std::string TesteSenha::VALOR_INVALIDO' at line 12 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
+  'static const std::string TesteHorario::VALOR_INVALIDO' at line 12 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
+  'static const std::string TesteNome::VALOR_INVALIDO' at line 12 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
+  'static const int TesteAvaliacao::VALOR_INVALIDO' at line 12 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
+  'static const std::string TesteData::VALOR_INVALIDO' at line 12 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteData.h
+  'static const int TesteDuracao::VALOR_INVALIDO' at line 12 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
+  'static const std::string TesteCodigo::VALOR_INVALIDO' at line 12 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:9: warning: no uniquely matching class member found for 
   void TesteDinheiro::Executar()
 Possible candidates:
-  'void TesteSenha::Executar()' at line 15 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
-  'void TesteHorario::Executar()' at line 15 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
-  'void TesteNome::Executar()' at line 15 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
-  'void TesteAvaliacao::Executar()' at line 16 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
-  'void TesteData::Executar()' at line 16 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
-  'void TesteDuracao::Executar()' at line 15 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
-  'void TesteCodigo::Executar()' at line 16 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
-C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:16: warning: no uniquely matching class member found for 
+  'void TesteSenha::Executar()' at line 15 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
+  'void TesteHorario::Executar()' at line 15 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
+  'void TesteNome::Executar()' at line 15 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
+  'void TesteAvaliacao::Executar()' at line 16 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
+  'void TesteData::Executar()' at line 16 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteData.h
+  'void TesteDuracao::Executar()' at line 15 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
+  'void TesteCodigo::Executar()' at line 16 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:16: warning: no uniquely matching class member found for 
   void TesteDinheiro::Excluir()
 Possible candidates:
-  'void TesteSenha::Excluir()' at line 16 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
-  'void TesteHorario::Excluir()' at line 16 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
-  'void TesteNome::Excluir()' at line 16 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
-  'void TesteAvaliacao::Excluir()' at line 17 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
-  'void TesteData::Excluir()' at line 17 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
-  'void TesteDuracao::Excluir()' at line 16 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
-  'void TesteCodigo::Excluir()' at line 17 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
-C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:22: warning: no uniquely matching class member found for 
+  'void TesteSenha::Excluir()' at line 16 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
+  'void TesteHorario::Excluir()' at line 16 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
+  'void TesteNome::Excluir()' at line 16 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
+  'void TesteAvaliacao::Excluir()' at line 17 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
+  'void TesteData::Excluir()' at line 17 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteData.h
+  'void TesteDuracao::Excluir()' at line 16 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
+  'void TesteCodigo::Excluir()' at line 17 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:22: warning: no uniquely matching class member found for 
   void TesteDinheiro::Sucesso()
 Possible candidates:
-  'void TesteSenha::Sucesso()' at line 17 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
-  'void TesteHorario::Sucesso()' at line 17 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
-  'void TesteNome::Sucesso()' at line 17 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
-  'void TesteAvaliacao::Sucesso()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
-  'void TesteData::Sucesso()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
-  'void TesteDuracao::Sucesso()' at line 17 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
-  'void TesteCodigo::Sucesso()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
-C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:39: warning: no uniquely matching class member found for 
+  'void TesteSenha::Sucesso()' at line 17 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
+  'void TesteHorario::Sucesso()' at line 17 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
+  'void TesteNome::Sucesso()' at line 17 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
+  'void TesteAvaliacao::Sucesso()' at line 18 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
+  'void TesteData::Sucesso()' at line 18 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteData.h
+  'void TesteDuracao::Sucesso()' at line 17 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
+  'void TesteCodigo::Sucesso()' at line 18 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:39: warning: no uniquely matching class member found for 
   void TesteDinheiro::Falha()
 Possible candidates:
-  'void TesteSenha::Falha()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
-  'void TesteHorario::Falha()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
-  'void TesteNome::Falha()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
-  'void TesteAvaliacao::Falha()' at line 19 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
-  'void TesteData::Falha()' at line 19 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
-  'void TesteDuracao::Falha()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
-  'void TesteCodigo::Falha()' at line 19 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
-C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:54: warning: no uniquely matching class member found for 
+  'void TesteSenha::Falha()' at line 18 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
+  'void TesteHorario::Falha()' at line 18 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
+  'void TesteNome::Falha()' at line 18 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
+  'void TesteAvaliacao::Falha()' at line 19 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
+  'void TesteData::Falha()' at line 19 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteData.h
+  'void TesteDuracao::Falha()' at line 18 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
+  'void TesteCodigo::Falha()' at line 19 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:54: warning: no uniquely matching class member found for 
   int TesteDinheiro::run()
 Possible candidates:
-  'int TesteConta::run()' at line 28 of file C:/projetos/Trabalho_1_TP1/include/testes/entidades/TesteConta.h
-  'int TesteDestino::run()' at line 28 of file C:/projetos/Trabalho_1_TP1/include/testes/entidades/TesteDestino.h
-  'int TesteHospedagem::run()' at line 30 of file C:/projetos/Trabalho_1_TP1/include/testes/entidades/TesteHospedagem.h
-  'int TesteSenha::run()' at line 23 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
-  'int TesteHorario::run()' at line 23 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
-  'int TesteNome::run()' at line 23 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
-  'int TesteAvaliacao::run()' at line 24 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
-  'int TesteData::run()' at line 24 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
-  'int TesteAtividade::run()' at line 29 of file C:/projetos/Trabalho_1_TP1/include/testes/entidades/TesteAtividade.h
-  'int TesteDuracao::run()' at line 23 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
-  'int TesteViagem::run()' at line 31 of file C:/projetos/Trabalho_1_TP1/include/testes/entidades/TesteViagem.h
-  'int TesteCodigo::run()' at line 24 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
-C:/projetos/Trabalho_1_TP1/include/entidades/Atividade.h:27: warning: Atividade::Atividade has @param documentation sections but no arguments
-C:/projetos/Trabalho_1_TP1/include/entidades/Atividade.h:85: warning: argument 'duracao' of command @param is not found in the argument list of Atividade::setAvaliacao(const Avaliacao &avaliacao)
-C:/projetos/Trabalho_1_TP1/include/entidades/Atividade.h:85: warning: The following parameter of Atividade::setAvaliacao(const Avaliacao &avaliacao) is not documented:
+  'int TesteConta::run()' at line 28 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/entidades/TesteConta.h
+  'int TesteDestino::run()' at line 28 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/entidades/TesteDestino.h
+  'int TesteHospedagem::run()' at line 30 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/entidades/TesteHospedagem.h
+  'int TesteSenha::run()' at line 23 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
+  'int TesteHorario::run()' at line 23 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
+  'int TesteNome::run()' at line 23 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
+  'int TesteAvaliacao::run()' at line 24 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
+  'int TesteData::run()' at line 24 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteData.h
+  'int TesteAtividade::run()' at line 29 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/entidades/TesteAtividade.h
+  'int TesteDuracao::run()' at line 23 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
+  'int TesteViagem::run()' at line 31 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/entidades/TesteViagem.h
+  'int TesteCodigo::run()' at line 24 of file C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Atividade.h:27: warning: Atividade::Atividade has @param documentation sections but no arguments
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Atividade.h:85: warning: argument 'duracao' of command @param is not found in the argument list of Atividade::setAvaliacao(const Avaliacao &avaliacao)
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Atividade.h:85: warning: The following parameter of Atividade::setAvaliacao(const Avaliacao &avaliacao) is not documented:
   parameter 'avaliacao'
-C:/projetos/Trabalho_1_TP1/include/entidades/Atividade.h:64: warning: found documented return type for Atividade::setCodigo that does not return anything
-C:/projetos/Trabalho_1_TP1/include/entidades/Atividade.h:73: warning: argument 'nome' of command @param is not found in the argument list of Atividade::setData(const Data &data)
-C:/projetos/Trabalho_1_TP1/include/entidades/Atividade.h:73: warning: The following parameter of Atividade::setData(const Data &data) is not documented:
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Atividade.h:64: warning: found documented return type for Atividade::setCodigo that does not return anything
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Atividade.h:73: warning: argument 'nome' of command @param is not found in the argument list of Atividade::setData(const Data &data)
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Atividade.h:73: warning: The following parameter of Atividade::setData(const Data &data) is not documented:
   parameter 'data'
-C:/projetos/Trabalho_1_TP1/include/entidades/Atividade.h:81: warning: argument 'horario' of command @param is not found in the argument list of Atividade::setDuracao(const Duracao &duracao)
-C:/projetos/Trabalho_1_TP1/include/entidades/Atividade.h:81: warning: The following parameter of Atividade::setDuracao(const Duracao &duracao) is not documented:
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Atividade.h:81: warning: argument 'horario' of command @param is not found in the argument list of Atividade::setDuracao(const Duracao &duracao)
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Atividade.h:81: warning: The following parameter of Atividade::setDuracao(const Duracao &duracao) is not documented:
   parameter 'duracao'
-C:/projetos/Trabalho_1_TP1/include/entidades/Atividade.h:77: warning: argument 'data' of command @param is not found in the argument list of Atividade::setHorario(const Horario &horario)
-C:/projetos/Trabalho_1_TP1/include/entidades/Atividade.h:77: warning: The following parameter of Atividade::setHorario(const Horario &horario) is not documented:
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Atividade.h:77: warning: argument 'data' of command @param is not found in the argument list of Atividade::setHorario(const Horario &horario)
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Atividade.h:77: warning: The following parameter of Atividade::setHorario(const Horario &horario) is not documented:
   parameter 'horario'
-C:/projetos/Trabalho_1_TP1/include/entidades/Atividade.h:69: warning: argument 'codigo' of command @param is not found in the argument list of Atividade::setNome(const Nome &nome)
-C:/projetos/Trabalho_1_TP1/include/entidades/Atividade.h:69: warning: The following parameter of Atividade::setNome(const Nome &nome) is not documented:
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Atividade.h:69: warning: argument 'codigo' of command @param is not found in the argument list of Atividade::setNome(const Nome &nome)
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Atividade.h:69: warning: The following parameter of Atividade::setNome(const Nome &nome) is not documented:
   parameter 'nome'
-C:/projetos/Trabalho_1_TP1/include/dominios/Avaliacao.h:40: warning: Avaliacao::getAvaliacao has @param documentation sections but no arguments
-C:/projetos/Trabalho_1_TP1/include/dominios/Codigo.h:37: warning: Codigo::getCodigo has @param documentation sections but no arguments
-C:/projetos/Trabalho_1_TP1/include/entidades/Conta.h:42: warning: Conta::getCodigo has @param documentation sections but no arguments
-C:/projetos/Trabalho_1_TP1/include/entidades/Conta.h:26: warning: argument 'senha.' of command @param is not found in the argument list of Conta::setCodigo(const Codigo &codigo)
-C:/projetos/Trabalho_1_TP1/include/entidades/Conta.h:35: warning: argument 'codigo' of command @param is not found in the argument list of Conta::setSenha(const Senha &senha)
-C:/projetos/Trabalho_1_TP1/include/entidades/Conta.h:35: warning: The following parameter of Conta::setSenha(const Senha &senha) is not documented:
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/dominios/Avaliacao.h:40: warning: Avaliacao::getAvaliacao has @param documentation sections but no arguments
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/dominios/Codigo.h:37: warning: Codigo::getCodigo has @param documentation sections but no arguments
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Conta.h:42: warning: Conta::getCodigo has @param documentation sections but no arguments
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Conta.h:26: warning: argument 'senha.' of command @param is not found in the argument list of Conta::setCodigo(const Codigo &codigo)
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Conta.h:35: warning: argument 'codigo' of command @param is not found in the argument list of Conta::setSenha(const Senha &senha)
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Conta.h:35: warning: The following parameter of Conta::setSenha(const Senha &senha) is not documented:
   parameter 'senha'
-C:/projetos/Trabalho_1_TP1/include/dominios/Data.h:56: warning: Data::Data has @param documentation sections but no arguments
-C:/projetos/Trabalho_1_TP1/include/dominios/Data.h:71: warning: Data::getData has @param documentation sections but no arguments
-C:/projetos/Trabalho_1_TP1/include/entidades/Destino.h:35: warning: Destino::getCodigo has @param documentation sections but no arguments
-C:/projetos/Trabalho_1_TP1/include/entidades/Destino.h:76: warning: argument 'dataTermino' of command @param is not found in the argument list of Destino::setAvaliacao(const Avaliacao &avaliacao)
-C:/projetos/Trabalho_1_TP1/include/entidades/Destino.h:76: warning: The following parameter of Destino::setAvaliacao(const Avaliacao &avaliacao) is not documented:
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/dominios/Data.h:56: warning: Data::Data has @param documentation sections but no arguments
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/dominios/Data.h:71: warning: Data::getData has @param documentation sections but no arguments
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Destino.h:35: warning: Destino::getCodigo has @param documentation sections but no arguments
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Destino.h:76: warning: argument 'dataTermino' of command @param is not found in the argument list of Destino::setAvaliacao(const Avaliacao &avaliacao)
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Destino.h:76: warning: The following parameter of Destino::setAvaliacao(const Avaliacao &avaliacao) is not documented:
   parameter 'avaliacao'
-C:/projetos/Trabalho_1_TP1/include/entidades/Destino.h:58: warning: found documented return type for Destino::setCodigo that does not return anything
-C:/projetos/Trabalho_1_TP1/include/entidades/Destino.h:68: warning: argument 'nome' of command @param is not found in the argument list of Destino::setDataInicio(const Data &dataInicio)
-C:/projetos/Trabalho_1_TP1/include/entidades/Destino.h:68: warning: The following parameter of Destino::setDataInicio(const Data &dataInicio) is not documented:
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Destino.h:58: warning: found documented return type for Destino::setCodigo that does not return anything
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Destino.h:68: warning: argument 'nome' of command @param is not found in the argument list of Destino::setDataInicio(const Data &dataInicio)
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Destino.h:68: warning: The following parameter of Destino::setDataInicio(const Data &dataInicio) is not documented:
   parameter 'dataInicio'
-C:/projetos/Trabalho_1_TP1/include/entidades/Destino.h:72: warning: argument 'dataInicio' of command @param is not found in the argument list of Destino::setDataTermino(const Data &dataTermino)
-C:/projetos/Trabalho_1_TP1/include/entidades/Destino.h:72: warning: The following parameter of Destino::setDataTermino(const Data &dataTermino) is not documented:
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Destino.h:72: warning: argument 'dataInicio' of command @param is not found in the argument list of Destino::setDataTermino(const Data &dataTermino)
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Destino.h:72: warning: The following parameter of Destino::setDataTermino(const Data &dataTermino) is not documented:
   parameter 'dataTermino'
-C:/projetos/Trabalho_1_TP1/include/entidades/Destino.h:64: warning: argument 'codigo' of command @param is not found in the argument list of Destino::setNome(const Nome &nome)
-C:/projetos/Trabalho_1_TP1/include/entidades/Destino.h:64: warning: The following parameter of Destino::setNome(const Nome &nome) is not documented:
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Destino.h:64: warning: argument 'codigo' of command @param is not found in the argument list of Destino::setNome(const Nome &nome)
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Destino.h:64: warning: The following parameter of Destino::setNome(const Nome &nome) is not documented:
   parameter 'nome'
-C:/projetos/Trabalho_1_TP1/include/dominios/Dinheiro.h:43: warning: Dinheiro::getValor has @param documentation sections but no arguments
-C:/projetos/Trabalho_1_TP1/include/dominios/Duracao.h:35: warning: Duracao::getDuracao has @param documentation sections but no arguments
-C:/projetos/Trabalho_1_TP1/include/dominios/Horario.h:36: warning: Horario::Horario has @param documentation sections but no arguments
-C:/projetos/Trabalho_1_TP1/include/dominios/Horario.h:49: warning: Horario::getHorario has @param documentation sections but no arguments
-C:/projetos/Trabalho_1_TP1/include/entidades/Hospedagem.h:32: warning: Hospedagem::getCodigo has @param documentation sections but no arguments
-C:/projetos/Trabalho_1_TP1/include/entidades/Hospedagem.h:64: warning: argument 'dinheiro' of command @param is not found in the argument list of Hospedagem::setAvaliacao(const Avaliacao &avaliacao)
-C:/projetos/Trabalho_1_TP1/include/entidades/Hospedagem.h:64: warning: The following parameter of Hospedagem::setAvaliacao(const Avaliacao &avaliacao) is not documented:
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/dominios/Dinheiro.h:43: warning: Dinheiro::getValor has @param documentation sections but no arguments
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/dominios/Duracao.h:35: warning: Duracao::getDuracao has @param documentation sections but no arguments
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/dominios/Horario.h:36: warning: Horario::Horario has @param documentation sections but no arguments
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/dominios/Horario.h:49: warning: Horario::getHorario has @param documentation sections but no arguments
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Hospedagem.h:32: warning: Hospedagem::getCodigo has @param documentation sections but no arguments
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Hospedagem.h:64: warning: argument 'dinheiro' of command @param is not found in the argument list of Hospedagem::setAvaliacao(const Avaliacao &avaliacao)
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Hospedagem.h:64: warning: The following parameter of Hospedagem::setAvaliacao(const Avaliacao &avaliacao) is not documented:
   parameter 'avaliacao'
-C:/projetos/Trabalho_1_TP1/include/entidades/Hospedagem.h:51: warning: found documented return type for Hospedagem::setCodigo that does not return anything
-C:/projetos/Trabalho_1_TP1/include/entidades/Hospedagem.h:60: warning: argument 'nome' of command @param is not found in the argument list of Hospedagem::setDinheiro(const Dinheiro &dinheiro)
-C:/projetos/Trabalho_1_TP1/include/entidades/Hospedagem.h:60: warning: The following parameter of Hospedagem::setDinheiro(const Dinheiro &dinheiro) is not documented:
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Hospedagem.h:51: warning: found documented return type for Hospedagem::setCodigo that does not return anything
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Hospedagem.h:60: warning: argument 'nome' of command @param is not found in the argument list of Hospedagem::setDinheiro(const Dinheiro &dinheiro)
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Hospedagem.h:60: warning: The following parameter of Hospedagem::setDinheiro(const Dinheiro &dinheiro) is not documented:
   parameter 'dinheiro'
-C:/projetos/Trabalho_1_TP1/include/entidades/Hospedagem.h:56: warning: argument 'codigo' of command @param is not found in the argument list of Hospedagem::setNome(const Nome &nome)
-C:/projetos/Trabalho_1_TP1/include/entidades/Hospedagem.h:56: warning: The following parameter of Hospedagem::setNome(const Nome &nome) is not documented:
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Hospedagem.h:56: warning: argument 'codigo' of command @param is not found in the argument list of Hospedagem::setNome(const Nome &nome)
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Hospedagem.h:56: warning: The following parameter of Hospedagem::setNome(const Nome &nome) is not documented:
   parameter 'nome'
-C:/projetos/Trabalho_1_TP1/include/dominios/Nome.h:38: warning: Nome::getNome has @param documentation sections but no arguments
-C:/projetos/Trabalho_1_TP1/include/dominios/Senha.h:70: warning: Senha::getSenha has @param documentation sections but no arguments
-C:/projetos/Trabalho_1_TP1/include/dominios/Senha.h:79: warning: found documented return type for Senha::setValor that does not return anything
-C:/projetos/Trabalho_1_TP1/include/dominios/Senha.h:53: warning: argument 'valor' from the argument list of Senha::validar has multiple @param documentation sections
-C:/projetos/Trabalho_1_TP1/include/entidades/Viagem.h:29: warning: Viagem::getCodigo has @param documentation sections but no arguments
-C:/projetos/Trabalho_1_TP1/include/entidades/Viagem.h:53: warning: argument 'nome' of command @param is not found in the argument list of Viagem::setAvaliacao(const Avaliacao &avaliacao)
-C:/projetos/Trabalho_1_TP1/include/entidades/Viagem.h:53: warning: The following parameter of Viagem::setAvaliacao(const Avaliacao &avaliacao) is not documented:
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/dominios/Nome.h:38: warning: Nome::getNome has @param documentation sections but no arguments
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/dominios/Senha.h:70: warning: Senha::getSenha has @param documentation sections but no arguments
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/dominios/Senha.h:79: warning: found documented return type for Senha::setValor that does not return anything
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/dominios/Senha.h:53: warning: argument 'valor' from the argument list of Senha::validar has multiple @param documentation sections
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Viagem.h:29: warning: Viagem::getCodigo has @param documentation sections but no arguments
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Viagem.h:53: warning: argument 'nome' of command @param is not found in the argument list of Viagem::setAvaliacao(const Avaliacao &avaliacao)
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Viagem.h:53: warning: The following parameter of Viagem::setAvaliacao(const Avaliacao &avaliacao) is not documented:
   parameter 'avaliacao'
-C:/projetos/Trabalho_1_TP1/include/entidades/Viagem.h:43: warning: found documented return type for Viagem::setCodigo that does not return anything
-C:/projetos/Trabalho_1_TP1/include/entidades/Viagem.h:48: warning: argument 'codigo' of command @param is not found in the argument list of Viagem::setNome(const Nome &nome)
-C:/projetos/Trabalho_1_TP1/include/entidades/Viagem.h:48: warning: The following parameter of Viagem::setNome(const Nome &nome) is not documented:
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Viagem.h:43: warning: found documented return type for Viagem::setCodigo that does not return anything
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Viagem.h:48: warning: argument 'codigo' of command @param is not found in the argument list of Viagem::setNome(const Nome &nome)
+C:/Users/thiag/OneDrive/Área de Trabalho/Trabalho_1_TP1/include/entidades/Viagem.h:48: warning: The following parameter of Viagem::setNome(const Nome &nome) is not documented:
   parameter 'nome'

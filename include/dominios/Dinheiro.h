@@ -6,7 +6,6 @@
 
 // Aluno: Thiago Silva Ribeiro - 202037702
 
-
 /// @brief Domínio que armazena valores monetários.
 /// Esta classe serve para implementar a lógica de validação, armazenamento e manipulação dos dados de valores monetários.
 
@@ -25,7 +24,7 @@ public:
     /// @brief O metodo construtor do dominio dinheiro.
     /// @param valor uma string com um número decimal de duas casas de precisão ou um número decimal.
     /// @throw invalid_argument caso o valor passado não esteja entre 0 e 200000,00.
-    
+
     Dinheiro(const double &valor)
     {
         setValor(valor);

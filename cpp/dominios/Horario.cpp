@@ -2,5 +2,5 @@
 
 Horario::Horario()
 {
-    //ctor
+    // ctor
 }

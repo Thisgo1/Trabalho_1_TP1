@@ -1,7 +1,6 @@
 #include "../include/testes/dominios/TesteSenha.h"
 #include <stdexcept>
 
-
 /// @brief Declaração de valores válidos para senha.
 const std::string TesteSenha::VALOR_VALIDO = "15976";
 const std::string TesteSenha::VALOR_INVALIDO = "senha123";

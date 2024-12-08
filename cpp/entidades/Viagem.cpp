@@ -2,10 +2,10 @@
 
 Viagem::Viagem()
 {
-    //ctor
+    // ctor
 }
 
 Viagem::~Viagem()
 {
-    //dtor
+    // dtor
 }

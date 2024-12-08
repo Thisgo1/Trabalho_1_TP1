@@ -2,5 +2,5 @@
 
 Duracao::Duracao()
 {
-    //ctor
+    // ctor
 }

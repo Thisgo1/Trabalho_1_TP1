@@ -1,11 +1,9 @@
 #include "../include/testes/dominios/TesteData.h"
 #include <stdexcept>
 
-
 /// @brief Declaração de valores válidos para data.
 const std::string TesteData::VALOR_VALIDO = "12/12/2020";
 const std::string TesteData::VALOR_INVALIDO = "12/12/20";
-
 
 /// @brief  Método que cria uma instância do dominio de Data, e cria uma variável para controle dos testes.
 void TesteData::Executar()
@@ -61,4 +59,3 @@ int TesteData::run()
   Excluir();
   return status;
 }
-

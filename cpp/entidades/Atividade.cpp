@@ -2,10 +2,10 @@
 
 Atividade::Atividade()
 {
-    //ctor
+    // ctor
 }
 
 Atividade::~Atividade()
 {
-    //dtor
+    // dtor
 }

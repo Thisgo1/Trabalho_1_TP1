@@ -2,10 +2,10 @@
 
 Hospedagem::Hospedagem()
 {
-    //ctor
+    // ctor
 }
 
 Hospedagem::~Hospedagem()
 {
-    //dtor
+    // dtor
 }
