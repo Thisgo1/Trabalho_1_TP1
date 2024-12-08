@@ -23,12 +23,12 @@
  @licend  The above is the entire license notice for the JavaScript code in this file
 */
 var menudata={children:[
-{text:"Main Page",url:"index.html"},
+{text:"Página Principal",url:"index.html"},
 {text:"Classes",url:"annotated.html",children:[
-{text:"Class List",url:"annotated.html"},
-{text:"Class Index",url:"classes.html"},
-{text:"Class Members",url:"functions.html",children:[
-{text:"All",url:"functions.html",children:[
+{text:"Lista de Classes",url:"annotated.html"},
+{text:"Índice dos Componentes",url:"classes.html"},
+{text:"Membros de classe",url:"functions.html",children:[
+{text:"Todos",url:"functions.html",children:[
 {text:"a",url:"functions.html#index_a"},
 {text:"d",url:"functions.html#index_d"},
 {text:"g",url:"functions.html#index_g"},
@@ -36,7 +36,7 @@ var menudata={children:[
 {text:"r",url:"functions.html#index_r"},
 {text:"s",url:"functions.html#index_s"},
 {text:"v",url:"functions.html#index_v"}]},
-{text:"Functions",url:"functions_func.html",children:[
+{text:"Funções",url:"functions_func.html",children:[
 {text:"a",url:"functions_func.html#index_a"},
 {text:"d",url:"functions_func.html#index_d"},
 {text:"g",url:"functions_func.html#index_g"},
@@ -44,6 +44,6 @@ var menudata={children:[
 {text:"r",url:"functions_func.html#index_r"},
 {text:"s",url:"functions_func.html#index_s"},
 {text:"v",url:"functions_func.html#index_v"}]},
-{text:"Variables",url:"functions_vars.html"}]}]},
-{text:"Files",url:"files.html",children:[
-{text:"File List",url:"files.html"}]}]}
+{text:"Variáveis",url:"functions_vars.html"}]}]},
+{text:"Arquivos",url:"files.html",children:[
+{text:"Lista de Arquivos",url:"files.html"}]}]}

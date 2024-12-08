@@ -24,18 +24,19 @@
 */
 var NAVTREE =
 [
-  [ "Trabalho_1_TP1", "index.html", [
+  [ "Trabalho 1 TP1", "index.html", [
+    [ "Sistema de Agência de Viagens", "index.html", null ],
     [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ]
+      [ "Lista de Classes", "annotated.html", "annotated_dup" ],
+      [ "Índice dos Componentes", "classes.html", null ],
+      [ "Membros de classe", "functions.html", [
+        [ "Todos", "functions.html", null ],
+        [ "Funções", "functions_func.html", null ],
+        [ "Variáveis", "functions_vars.html", null ]
       ] ]
     ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
+    [ "Arquivos", "files.html", [
+      [ "Lista de Arquivos", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
@@ -45,5 +46,5 @@ var NAVTREEINDEX =
 "_atividade_8h_source.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'clique para desativar a sincronização do painel';
+var SYNCOFFMSG = 'clique para ativar a sincronização do painel';

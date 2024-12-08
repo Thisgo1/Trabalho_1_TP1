@@ -1,10 +1,32 @@
 ///@mainpage Sistema de Agência de Viagens
 ///
-///@section intro_sec Introdução
-/// Esse projeto visa implementar uma biblioteca de classes para um sistema de agência de viagens.
-/// O sistema é composto por classes de domínio e entidades, que são responsáveis por armazenar e manipular informações sobre viagens, atividades, destinos, hospedagens e contas.
-///@section creditos_sec Créditos do Projeto
-/// Thiago Silva Ribeiro - 202037702.
+/// <h1> Introdução </h1>
+/// Este projeto visa implementar uma biblioteca de classes para um sistema de agência de viagens. <br>
+/// Neste primeiro momento temos implementadas as classes domínios e entidades, e seus testes unitários. <br>
+/// O sistema é composto por classes de domínio e entidades, que são responsáveis por armazenar e manipular informações sobre:<br>
+///
+/// <h3> Entidades: </h3>
+/// <ul>
+///     <li>Viagem</li>
+///     <li>Atividade</li>
+///     <li>Hospedagem</li>
+///     <li>Conta</li>
+/// </ul>
+///
+/// <h3> Domínios: </h3>
+/// <ul>
+///     <li>Codigo</li>
+///     <li>Avaliacao</li>
+///     <li>Data</li>
+///     <li>Duracao</li>
+///     <li>Dinheiro</li>
+///     <li>Nome</li>
+///     <li>Senha</li>
+///     <li>Horario</li>
+/// </ul>
+///
+/// <h2> Créditos do Projeto </h2>
+/// <h3> Thiago Silva Ribeiro - 202037702. </h3>
 
 #include <iostream>
 
