@@ -3,7 +3,7 @@
 
 #include "../../dominios/Horario.h"
 
-/// @brief Classe que testa a validação do domínio de Horário.
+/// @brief Classe que testa a validação do domínio de Horário, por meio de um valor válido e um inválido.
 
 class TesteHorario
 {

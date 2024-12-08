@@ -28,9 +28,9 @@ void TesteAtividade::testarSucesso()
   {
     Codigo codigo(CODIGO_VALIDO);
     atividade->setCodigo(codigo);
-    if (atividade->getCodigo().getCodigo() == CODIGO_VALIDO)
+    if (atividade->getCodigo().getCodigo() != CODIGO_VALIDO)
     {
-      status = SUCESSO;
+      status = FALHA;
     }
   }
   catch (const std::invalid_argument &e)
@@ -42,9 +42,9 @@ void TesteAtividade::testarSucesso()
   {
     Nome nome(NOME_VALIDO);
     atividade->setNome(nome);
-    if (atividade->getNome().getNome() == NOME_VALIDO)
+    if (atividade->getNome().getNome() != NOME_VALIDO)
     {
-      status = SUCESSO;
+      status = FALHA;
     }
   }
   catch (const std::invalid_argument &e)
@@ -56,9 +56,9 @@ void TesteAtividade::testarSucesso()
   {
     Data data(DATA_VALIDA);
     atividade->setData(data);
-    if (atividade->getData().getData() == DATA_VALIDA)
+    if (atividade->getData().getData() != DATA_VALIDA)
     {
-      status = SUCESSO;
+      status = FALHA;
     }
   }
   catch (const std::invalid_argument &e)
@@ -70,9 +70,9 @@ void TesteAtividade::testarSucesso()
   {
     Horario horario(HORARIO_VALIDO);
     atividade->setHorario(horario);
-    if (atividade->getHorario().getHorario() == HORARIO_VALIDO)
+    if (atividade->getHorario().getHorario() != HORARIO_VALIDO)
     {
-      status = SUCESSO;
+      status = FALHA;
     }
   }
   catch (const std::invalid_argument &e)
@@ -84,9 +84,9 @@ void TesteAtividade::testarSucesso()
   {
     Duracao duracao(DURACAO_VALIDA);
     atividade->setDuracao(duracao);
-    if (atividade->getDuracao().getDuracao() == DURACAO_VALIDA)
+    if (atividade->getDuracao().getDuracao() != DURACAO_VALIDA)
     {
-      status = SUCESSO;
+      status = FALHA;
     }
   }
   catch (const std::invalid_argument &e)
@@ -98,9 +98,9 @@ void TesteAtividade::testarSucesso()
   {
     Avaliacao avaliacao(AVALIACAO_VALIDA);
     atividade->setAvaliacao(avaliacao);
-    if (atividade->getAvaliacao().getAvaliacao() == AVALIACAO_VALIDA)
+    if (atividade->getAvaliacao().getAvaliacao() != AVALIACAO_VALIDA)
     {
-      status = SUCESSO;
+      status = FALHA;
     }
   }
   catch (const std::invalid_argument &e)

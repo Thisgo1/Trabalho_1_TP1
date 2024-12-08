@@ -1,8 +1,10 @@
 #include "../include/testes/entidades/TesteHospedagem.h"
 
+using namespace std;
+
 const std::string TesteHospedagem::CODIGO_VALIDO = "ABC123";
 const std::string TesteHospedagem::NOME_VALIDO = "SaoPaulo";
-const std::string TesteHospedagem::DINHEIRO_VALIDO = "200.00";
+const double TesteHospedagem::DINHEIRO_VALIDO = 200.00;
 const int TesteHospedagem::AVALIACAO_VALIDA = 3;
 
 /// @brief Método que cria uma instância do dominio de Hospedagem, e cria uma variável para controle dos testes.
@@ -25,9 +27,9 @@ void TesteHospedagem::testarSucesso()
   {
     Codigo codigo(CODIGO_VALIDO);
     hospedagem->setCodigo(codigo);
-    if (hospedagem->getCodigo().getCodigo() == CODIGO_VALIDO)
+    if (hospedagem->getCodigo().getCodigo() != CODIGO_VALIDO)
     {
-      status = SUCESSO;
+      status = FALHA;
     }
   }
   catch (const std::invalid_argument &e)
@@ -39,9 +41,9 @@ void TesteHospedagem::testarSucesso()
   {
     Nome nome(NOME_VALIDO);
     hospedagem->setNome(nome);
-    if (hospedagem->getNome().getNome() == NOME_VALIDO)
+    if (hospedagem->getNome().getNome() != NOME_VALIDO)
     {
-      status = SUCESSO;
+      status = FALHA;
     }
   }
   catch (const std::invalid_argument &e)
@@ -49,13 +51,13 @@ void TesteHospedagem::testarSucesso()
     status = FALHA;
   }
 
-  try
+    try
   {
     Dinheiro dinheiro(DINHEIRO_VALIDO);
     hospedagem->setDinheiro(dinheiro);
-    if (hospedagem->getDinheiro().getDinheiro() == DINHEIRO_VALIDO)
+    if (hospedagem->getDinheiro().getValor() != DINHEIRO_VALIDO)
     {
-      status = SUCESSO;
+      status = FALHA;
     }
   }
   catch (const std::invalid_argument &e)
@@ -67,9 +69,9 @@ void TesteHospedagem::testarSucesso()
   {
     Avaliacao avaliacao(AVALIACAO_VALIDA);
     hospedagem->setAvaliacao(avaliacao);
-    if (hospedagem->getAvaliacao().getAvaliacao() == AVALIACAO_VALIDA)
+    if (hospedagem->getAvaliacao().getAvaliacao() != AVALIACAO_VALIDA)
     {
-      status = SUCESSO;
+      status = FALHA;
     }
   }
   catch (const std::invalid_argument &e)

@@ -13,7 +13,7 @@
 class Dinheiro
 {
 private:
-    float valor;
+    double valor;
 
 public:
     /** Default constructor */
@@ -26,29 +26,29 @@ public:
     /// @param valor uma string com um número decimal de duas casas de precisão ou um número decimal.
     /// @throw invalid_argument caso o valor passado não esteja entre 0 e 200000,00.
     
-    Dinheiro(const float &valor)
+    Dinheiro(const double &valor)
     {
         setValor(valor);
     };
 
-    void setValor(const float &valor)
+    void setValor(const double &valor)
     {
-        if (valor < 0.0 || valor > 200000.00)
+        if (valor < 0.00 || valor > 200000.00)
         {
             throw std::invalid_argument("Valor invalido");
         }
         this->valor = valor;
     }
     /// @brief O metodo atribui um valor de dinheiro.
-    /// @param valor um float entre 0.00 e 200000.00 ou uma string com um valor no mesmo range.
+    /// @param valor um double entre 0.00 e 200000.00 ou uma string com um valor no mesmo range.
     /// @throw invalid_argument caso o valor passado não esteja entre 0 e 200000,00.
 
-    float getValor() const
+    double getValor() const
     {
         return valor;
     }
     /// @brief O metodo retorna um valor decimal.
-    /// @return um float entre 0.00 e 200000.00.
+    /// @return um double entre 0.00 e 200000.00.
 
     std::string getDinheiro() const
     {

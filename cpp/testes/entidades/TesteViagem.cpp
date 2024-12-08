@@ -25,9 +25,11 @@ void TesteViagem::testarSucesso()
 {
   try
   {
-    if (viagem->getCodigo().getCodigo() == CODIGO_VALIDO)
+    Codigo codigo(CODIGO_VALIDO);
+    viagem->setCodigo(codigo);
+    if (viagem->getCodigo().getCodigo() != CODIGO_VALIDO)
     {
-      status = SUCESSO;
+      status = FALHA;
     }
   }
   catch (const std::invalid_argument &e)
@@ -37,9 +39,11 @@ void TesteViagem::testarSucesso()
 
   try
   {
-    if (viagem->getNome().getNome() == NOME_VALIDO)
+    Nome nome(NOME_VALIDO);
+    viagem->setNome(nome);
+    if (viagem->getNome().getNome() != NOME_VALIDO)
     {
-      status = SUCESSO;
+      status = FALHA;
     }
   }
   catch (const std::invalid_argument &e)
@@ -49,9 +53,11 @@ void TesteViagem::testarSucesso()
 
   try
   {
-    if (viagem->getAvaliacao().getAvaliacao() == AVALIACAO_VALIDA)
+    Avaliacao avaliacao(AVALIACAO_VALIDA);
+    viagem->setAvaliacao(avaliacao);
+    if (viagem->getAvaliacao().getAvaliacao() != AVALIACAO_VALIDA)
     {
-      status = SUCESSO;
+      status = FALHA;
     }
   }
   catch (const std::invalid_argument &e)

@@ -25,9 +25,9 @@ void TesteConta::testarSucesso()
     try
     {
         conta->setCodigo(CODIGO_VALIDO);
-        if (conta->getCodigo().getCodigo() == CODIGO_VALIDO)
+        if (conta->getCodigo().getCodigo() != CODIGO_VALIDO)
         {
-            status = SUCESSO;
+            status = FALHA;
         }
     }
     catch (const std::invalid_argument &e)
@@ -39,9 +39,9 @@ void TesteConta::testarSucesso()
     {
         Senha senha(SENHA_VALIDA);
         conta->setSenha(senha);
-        if (conta->getSenha().getSenha() == SENHA_VALIDA)
+        if (conta->getSenha().getSenha() != SENHA_VALIDA)
         {
-            status = SUCESSO;
+            status = FALHA;
         }
     }
     catch (const std::invalid_argument &e)

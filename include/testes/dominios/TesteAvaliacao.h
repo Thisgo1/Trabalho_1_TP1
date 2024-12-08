@@ -3,7 +3,7 @@
 
 #include "../../dominios/Avaliacao.h"
 
-/// @brief Classe que testa a validação do domínio de Avaliação.
+/// @brief Classe que testa a validação do domínio de Avaliação, por meio de um valor válido e um inválido.
 
 class TesteAvaliacao
 {

@@ -32,7 +32,7 @@ public:
     /// @param codigo, nome, dinheiro, avaliacao.
     /// @throw invalid_argument caso codigo não seja uma string de 6 caracteres.
     /// @throw invalid_argument caso nome não seja uma string de 1 a 30 caracteres.
-    /// @throw invalid_argument caso dinheiro caso o valor não seja um float entre 0.00 e 200000.00.
+    /// @throw invalid_argument caso dinheiro caso o valor não seja um double entre 0.00 e 200000.00.
     /// @throw invalid_argument caso avaliacao caso o valor passado não esteja entre 0 e 5.
 
 
@@ -45,7 +45,7 @@ public:
     /// @return Uma string de 1 a 30 caracteres.
     Dinheiro getDinheiro() const { return dinheiro; }
     /// @brief  Retorna o valor do dinheiro.
-    /// @return Um float entre 0.00 e 200000.00.
+    /// @return Um double entre 0.00 e 200000.00.
     Avaliacao getAvaliacao() const { return avaliacao; }
     /// @brief  Retorna o valor de avalição.
     /// @return Um inteiro entre 0 e 5.
@@ -59,9 +59,9 @@ public:
     /// @brief O metodo atribui um valor de nome.
     /// @param nome uma string de 1 a 30 caracteres.
 
-    void setDinheiro(Dinheiro) { this->dinheiro = dinheiro; }
+    void setDinheiro(const Dinheiro &dinheiro) { this->dinheiro = dinheiro; }
     /// @brief O metodo atribui um valor de dinheiro.
-    /// @param dinheiro um float entre 0.00 e 200000.00. Ou uma string com um valor no mesmo range.
+    /// @param dinheiro um double entre 0.00 e 200000.00. Ou uma string com um valor no mesmo range.
 
     void setAvaliacao(const Avaliacao &avaliacao) { this->avaliacao = avaliacao; }
     /// @brief O metodo atribui um valor de avaliação.

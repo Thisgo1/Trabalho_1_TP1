@@ -3,7 +3,7 @@
 
 #include "../../dominios/Codigo.h"
 
-/// @brief Classe que testa a validação do domínio de Código.
+/// @brief Classe que testa a validação do domínio de Código, por meio de um valor válido e um inválido.
 
 class TesteCodigo
 {

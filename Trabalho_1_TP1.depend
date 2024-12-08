@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1733649228 source:c:\projetos\trabalho_1_tp1\main.cpp
+1733660789 source:c:\projetos\trabalho_1_tp1\main.cpp
 	<iostream>
 	"include\testes\dominios\TesteAvaliacao.h"
 	"include\testes\dominios\TesteCodigo.h"
@@ -37,47 +37,47 @@
 	<algorithm>
 	<set>
 
-1733656313 c:\projetos\trabalho_1_tp1\include\dominios\codigo.h
+1733661391 c:\projetos\trabalho_1_tp1\include\dominios\codigo.h
 	<string>
 	<stdexcept>
 
-1733657074 c:\projetos\trabalho_1_tp1\include\dominios\senha.h
+1733661969 c:\projetos\trabalho_1_tp1\include\dominios\senha.h
 	<stdexcept>
 	<string>
 	<algorithm>
 	<set>
 
-1733658270 c:\projetos\trabalho_1_tp1\include\dominios\data.h
+1733661435 c:\projetos\trabalho_1_tp1\include\dominios\data.h
 	<string>
 	<stdexcept>
 	<regex>
 
-1733660321 c:\projetos\trabalho_1_tp1\include\dominios\avaliacao.h
+1733661254 c:\projetos\trabalho_1_tp1\include\dominios\avaliacao.h
 	<regex>
 
-1733656904 c:\projetos\trabalho_1_tp1\include\dominios\nome.h
+1733661966 c:\projetos\trabalho_1_tp1\include\dominios\nome.h
 	<string>
 	<stdexcept>
 
-1733656723 c:\projetos\trabalho_1_tp1\include\dominios\duracao.h
+1733661673 c:\projetos\trabalho_1_tp1\include\dominios\duracao.h
 	<iostream>
 
-1733656651 c:\projetos\trabalho_1_tp1\include\dominios\dinheiro.h
-	<iostream>
+1733691178 c:\projetos\trabalho_1_tp1\include\dominios\dinheiro.h
+	<stdexcept>
 	<iomanip>
 
-1733658212 c:\projetos\trabalho_1_tp1\include\entidades\conta.h
+1733661854 c:\projetos\trabalho_1_tp1\include\entidades\conta.h
 	<string>
 	<stdexcept>
 	"../../include/dominios/Codigo.h"
 	"../../include/dominios/Senha.h"
 
-1733656820 c:\projetos\trabalho_1_tp1\include\dominios\horario.h
+1733661695 c:\projetos\trabalho_1_tp1\include\dominios\horario.h
 	<string>
 	<stdexcept>
 	<regex>
 
-1733660466 c:\projetos\trabalho_1_tp1\include\testes\entidades\testeconta.h
+1733660679 c:\projetos\trabalho_1_tp1\include\testes\entidades\testeconta.h
 	"../../entidades/Conta.h"
 
 1733633022 source:c:\projetos\trabalho_1_tp1\cpp\dominios\codigo.cpp
@@ -116,7 +116,7 @@
 	"../include/testes/dominios/TesteData.h"
 	<stdexcept>
 
-1733659383 source:c:\projetos\trabalho_1_tp1\cpp\testes\dominios\testedinhero.cpp
+1733689815 source:c:\projetos\trabalho_1_tp1\cpp\testes\dominios\testedinhero.cpp
 	"../include/testes/dominios/TesteDinheiro.h"
 	<stdexcept>
 
@@ -139,7 +139,7 @@
 1733635183 source:c:\projetos\trabalho_1_tp1\cpp\entidades\atividade.cpp
 	"../include/entidades/Atividade.h"
 
-1733658024 c:\projetos\trabalho_1_tp1\include\entidades\atividade.h
+1733661808 c:\projetos\trabalho_1_tp1\include\entidades\atividade.h
 	"..\include\dominios\Codigo.h"
 	"..\include\dominios\Nome.h"
 	"..\include\dominios\Data.h"
@@ -150,7 +150,7 @@
 1733635289 source:c:\projetos\trabalho_1_tp1\cpp\entidades\destino.cpp
 	"../include/entidades/Destino.h"
 
-1733658427 c:\projetos\trabalho_1_tp1\include\entidades\destino.h
+1733661887 c:\projetos\trabalho_1_tp1\include\entidades\destino.h
 	"..\include\dominios\Codigo.h"
 	"..\include\dominios\Nome.h"
 	"..\include\dominios\Data.h"
@@ -159,7 +159,7 @@
 1733635278 source:c:\projetos\trabalho_1_tp1\cpp\entidades\hospedagem.cpp
 	"../include/entidades/Hospedagem.h"
 
-1733658636 c:\projetos\trabalho_1_tp1\include\entidades\hospedagem.h
+1733690386 c:\projetos\trabalho_1_tp1\include\entidades\hospedagem.h
 	"..\include\dominios\Codigo.h"
 	"..\include\dominios\Nome.h"
 	"..\include\dominios\Dinheiro.h"
@@ -168,62 +168,62 @@
 1733635310 source:c:\projetos\trabalho_1_tp1\cpp\entidades\viagem.cpp
 	"../include/entidades/Viagem.h"
 
-1733658868 c:\projetos\trabalho_1_tp1\include\entidades\viagem.h
+1733661913 c:\projetos\trabalho_1_tp1\include\entidades\viagem.h
 	"..\include\dominios\Codigo.h"
 	"..\include\dominios\Nome.h"
 	"..\include\dominios\Avaliacao.h"
 
-1733646882 source:c:\projetos\trabalho_1_tp1\cpp\testes\entidades\testeatividade.cpp
+1733690515 source:c:\projetos\trabalho_1_tp1\cpp\testes\entidades\testeatividade.cpp
 	"../include/testes/entidades/TesteAtividade.h"
 
-1733646952 source:c:\projetos\trabalho_1_tp1\cpp\testes\entidades\testedestino.cpp
+1733690580 source:c:\projetos\trabalho_1_tp1\cpp\testes\entidades\testedestino.cpp
 	"../include/testes/entidades/TesteDestino.h"
 
-1733649141 source:c:\projetos\trabalho_1_tp1\cpp\testes\entidades\testehospedagem.cpp
+1733690432 source:c:\projetos\trabalho_1_tp1\cpp\testes\entidades\testehospedagem.cpp
 	"../include/testes/entidades/TesteHospedagem.h"
 
-1733646682 source:c:\projetos\trabalho_1_tp1\cpp\testes\entidades\testeviagem.cpp
+1733691133 source:c:\projetos\trabalho_1_tp1\cpp\testes\entidades\testeviagem.cpp
 	"../include/testes/entidades/TesteViagem.h"
 
 1733633006 source:c:\projetos\trabalho_1_tp1\cpp\dominios\horario.cpp
 	"../include/dominios/Horario.h"
 
-1733639760 c:\projetos\trabalho_1_tp1\include\testes\entidades\testeatividade.h
+1733660671 c:\projetos\trabalho_1_tp1\include\testes\entidades\testeatividade.h
 	"../../entidades/Atividade.h"
 
-1733646738 source:c:\projetos\trabalho_1_tp1\cpp\testes\entidades\testeconta.cpp
+1733690553 source:c:\projetos\trabalho_1_tp1\cpp\testes\entidades\testeconta.cpp
 	"../include/testes/entidades/TesteConta.h"
 
-1733645428 c:\projetos\trabalho_1_tp1\include\testes\entidades\testedestino.h
+1733660687 c:\projetos\trabalho_1_tp1\include\testes\entidades\testedestino.h
 	"../../entidades/Destino.h"
 
-1733644588 c:\projetos\trabalho_1_tp1\include\testes\entidades\testeviagem.h
+1733660859 c:\projetos\trabalho_1_tp1\include\testes\entidades\testeviagem.h
 	"../../entidades/Viagem.h"
 
-1733646406 c:\projetos\trabalho_1_tp1\include\testes\entidades\testehospedagem.h
+1733690082 c:\projetos\trabalho_1_tp1\include\testes\entidades\testehospedagem.h
 	"../../entidades/Hospedagem.h"
 
-1733648186 c:\projetos\trabalho_1_tp1\include\testes\dominios\testeavaliacao.h
+1733689331 c:\projetos\trabalho_1_tp1\include\testes\dominios\testeavaliacao.h
 	"../../dominios/Avaliacao.h"
 
-1733648196 c:\projetos\trabalho_1_tp1\include\testes\dominios\testecodigo.h
+1733689327 c:\projetos\trabalho_1_tp1\include\testes\dominios\testecodigo.h
 	"../../dominios/Codigo.h"
 
-1733648205 c:\projetos\trabalho_1_tp1\include\testes\dominios\testedata.h
+1733689323 c:\projetos\trabalho_1_tp1\include\testes\dominios\testedata.h
 	"../../dominios/Data.h"
 
-1733648210 c:\projetos\trabalho_1_tp1\include\testes\dominios\testedinheiro.h
+1733689603 c:\projetos\trabalho_1_tp1\include\testes\dominios\testedinheiro.h
 	"../../dominios/Dinheiro.h"
 
-1733648213 c:\projetos\trabalho_1_tp1\include\testes\dominios\testeduracao.h
+1733689311 c:\projetos\trabalho_1_tp1\include\testes\dominios\testeduracao.h
 	"../../dominios/Duracao.h"
 
-1733648216 c:\projetos\trabalho_1_tp1\include\testes\dominios\testehorario.h
+1733689303 c:\projetos\trabalho_1_tp1\include\testes\dominios\testehorario.h
 	"../../dominios/Horario.h"
 
-1733648218 c:\projetos\trabalho_1_tp1\include\testes\dominios\testenome.h
+1733689283 c:\projetos\trabalho_1_tp1\include\testes\dominios\testenome.h
 	"../../dominios/Nome.h"
 
-1733648221 c:\projetos\trabalho_1_tp1\include\testes\dominios\testesenha.h
+1733689276 c:\projetos\trabalho_1_tp1\include\testes\dominios\testesenha.h
 	"../../dominios/Senha.h"
 

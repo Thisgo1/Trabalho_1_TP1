@@ -2,8 +2,8 @@
 #include <stdexcept>
 
 /// @brief Declaração de valores válidos para dinheiro.
-const float TesteDinheiro::VALOR_VALIDO = 100.00;
-const float TesteDinheiro::VALOR_INVALIDO = -1000.00;
+const double TesteDinheiro::VALOR_VALIDO = 100.00;
+const double TesteDinheiro::VALOR_INVALIDO = -1000.00;
 
 /// @brief Método que cria uma instância do dominio de Dinheiro, e cria uma variável para controle dos testes.
 void TesteDinheiro::Executar()

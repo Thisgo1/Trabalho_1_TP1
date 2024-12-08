@@ -3,13 +3,13 @@
 
 #include "../../dominios/Dinheiro.h"
 
-/// @brief Classe que testa a validação do domínio de Dinheiro.
+/// @brief Classe que testa a validação do domínio de Dinheiro, por meio de um valor válido e um inválido.
 
 class TesteDinheiro
 {
 private:
-  const static float VALOR_VALIDO;
-  const static float VALOR_INVALIDO;
+  const static double VALOR_VALIDO;
+  const static double VALOR_INVALIDO;
   Dinheiro *dinheiro;
   int status;
   void Executar();

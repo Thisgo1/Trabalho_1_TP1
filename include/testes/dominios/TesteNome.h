@@ -3,7 +3,7 @@
 
 #include "../../dominios/Nome.h"
 
-/// @brief Classe que testa a validação do domínio de Nome.
+/// @brief Classe que testa a validação do domínio de Nome, por meio de um valor válido e um inválido.
 
 class TesteNome
 {

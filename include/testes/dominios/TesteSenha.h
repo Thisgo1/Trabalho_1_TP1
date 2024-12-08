@@ -3,7 +3,7 @@
 
 #include "../../dominios/Senha.h"
 
-/// @brief Classe que testa a validação do domínio de Senha.
+/// @brief Classe que testa a validação do domínio de Senha, por meio de um valor válido e um inválido.
 
 class TesteSenha
 {

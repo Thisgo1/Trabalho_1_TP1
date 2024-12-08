@@ -3,7 +3,7 @@
 
 #include "../../dominios/Duracao.h"
 
-/// @brief Classe que testa a validação do domínio de Duração.
+/// @brief Classe que testa a validação do domínio de Duração, por meio de um valor válido e um inválido.
 
 class TesteDuracao
 {

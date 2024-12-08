@@ -11,7 +11,7 @@ private:
   //Declaração de valores válidos para hospedagem.
   const static std::string CODIGO_VALIDO;
   const static std::string NOME_VALIDO;
-  const static std::string DINHEIRO_VALIDO;
+  const static double DINHEIRO_VALIDO;
   const static int AVALIACAO_VALIDA;
 
   //Ponteiro para a entidade Hospedagem.

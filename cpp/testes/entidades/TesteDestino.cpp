@@ -28,9 +28,9 @@ void TesteDestino::testarSucesso()
   {
     Codigo codigo(CODIGO_VALIDO);
     destino->setCodigo(codigo);
-    if (destino->getCodigo().getCodigo() == CODIGO_VALIDO)
+    if (destino->getCodigo().getCodigo() != CODIGO_VALIDO)
     {
-      status = SUCESSO;
+      status = FALHA;
     }
   }
   catch (const std::invalid_argument &e)
@@ -41,9 +41,9 @@ void TesteDestino::testarSucesso()
   {
     Data dataInicio(DATA_INICIO_VALIDA);
     destino->setDataInicio(dataInicio);
-    if (destino->getDataInicio().getData() == DATA_INICIO_VALIDA)
+    if (destino->getDataInicio().getData() != DATA_INICIO_VALIDA)
     {
-      status = SUCESSO;
+      status = FALHA;
     }
   }
   catch (const std::invalid_argument &e)
@@ -54,9 +54,9 @@ void TesteDestino::testarSucesso()
   {
     Data dataTermino(DATA_TERMINO_VALIDA);
     destino->setDataTermino(dataTermino);
-    if (destino->getDataTermino().getData() == DATA_TERMINO_VALIDA)
+    if (destino->getDataTermino().getData() != DATA_TERMINO_VALIDA)
     {
-      status = SUCESSO;
+      status = FALHA;
     }
   }
   catch (const std::invalid_argument &e)
@@ -67,9 +67,9 @@ void TesteDestino::testarSucesso()
   {
     Avaliacao avaliacao(AVALIACAO_VALIDA);
     destino->setAvaliacao(avaliacao);
-    if (destino->getAvaliacao().getAvaliacao() == AVALIACAO_VALIDA)
+    if (destino->getAvaliacao().getAvaliacao() != AVALIACAO_VALIDA)
     {
-      status = SUCESSO;
+      status = FALHA;
     }
   }
   catch (const std::invalid_argument &e)
@@ -81,9 +81,9 @@ void TesteDestino::testarSucesso()
   {
     Nome nome(NOME_VALIDO);
     destino->setNome(nome);
-    if (destino->getNome().getNome() == NOME_VALIDO)
+    if (destino->getNome().getNome() != NOME_VALIDO)
     {
-      status = SUCESSO;
+      status = FALHA;
     }
   }
   catch (const std::invalid_argument &e)
