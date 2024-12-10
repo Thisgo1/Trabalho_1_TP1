@@ -2,9 +2,10 @@
 #define CODIGO_H
 
 #include <string>
+#include <regex>
 #include <stdexcept>
 
-//Aluno : Thiago Silva Ribeiro - 202037702
+// Aluno : Thiago Silva Ribeiro - 202037702
 
 /// @brief Domínio que armazena os códigos identificadores de todas as entidades implementadas neste projeto.
 /// Esta classe serve para implementar a lógica de validação, armazenamento e manipulação dos dados desses códigos.
@@ -27,22 +28,22 @@ public:
 
     void setValor(const std::string &valor)
     {
-        if (valor.length() != 6)
+        if (valor.length() != 6 || !std::regex_match(valor, std::regex("[a-zA-Z0-9]{6}")))
         {
-            throw std::invalid_argument("O código deve ter exatamente 6 caracteres.");
+            throw std::invalid_argument("O código deve ter exatamente 6 caracteres. E nenhum deles pode ser especial.");
         }
         this->valor = valor;
     }
-    /// @brief O metodo setValor() atribui um valor de código. 
+    /// @brief O metodo setValor() atribui um valor de código.
     /// @param valor uma string de 6 caracteres sendo esses caracteres digitos[0-9] ou letras[a-z ou A-Z].
     /// @throw invalid_argument caso o valor passado não exatamente 6 caracteres, ou tenha caracteres especiais.
-    
+
     std::string getCodigo() const
     {
         return valor;
     }
     /// @brief retorna o valor de código.
-    /// @return uma string de 6 caracteres. 
+    /// @return uma string de 6 caracteres.
 };
 
 #endif // CODIGO_H

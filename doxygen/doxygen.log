@@ -1,79 +1,79 @@
 warning: source '..\include\testes\dominios\TesteDinhero.h' is not a readable file or directory... skipping.
-C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:5: warning: no uniquely matching class member found for 
+C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:9: warning: no uniquely matching class member found for 
   const double TesteDinheiro::VALOR_VALIDO
 Possible candidates:
-  'static const std::string TesteSenha::VALOR_VALIDO' at line 11 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
-  'static const std::string TesteHorario::VALOR_VALIDO' at line 11 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
-  'static const std::string TesteNome::VALOR_VALIDO' at line 11 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
-  'static const int TesteAvaliacao::VALOR_VALIDO' at line 11 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
-  'static const std::string TesteData::VALOR_VALIDO' at line 11 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
-  'static const int TesteDuracao::VALOR_VALIDO' at line 11 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
-  'static const std::string TesteCodigo::VALOR_VALIDO' at line 11 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
-C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:6: warning: no uniquely matching class member found for 
+  'static const std::string TesteSenha::VALOR_VALIDO' at line 13 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
+  'static const std::string TesteHorario::VALOR_VALIDO' at line 13 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
+  'static const std::string TesteNome::VALOR_VALIDO' at line 13 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
+  'static const int TesteAvaliacao::VALOR_VALIDO' at line 13 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
+  'static const std::string TesteData::VALOR_VALIDO' at line 13 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
+  'static const int TesteDuracao::VALOR_VALIDO' at line 13 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
+  'static const std::string TesteCodigo::VALOR_VALIDO' at line 13 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
+C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:10: warning: no uniquely matching class member found for 
   const double TesteDinheiro::VALOR_INVALIDO
 Possible candidates:
-  'static const std::string TesteSenha::VALOR_INVALIDO' at line 12 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
-  'static const std::string TesteHorario::VALOR_INVALIDO' at line 12 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
-  'static const std::string TesteNome::VALOR_INVALIDO' at line 12 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
-  'static const int TesteAvaliacao::VALOR_INVALIDO' at line 12 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
-  'static const std::string TesteData::VALOR_INVALIDO' at line 12 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
-  'static const int TesteDuracao::VALOR_INVALIDO' at line 12 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
-  'static const std::string TesteCodigo::VALOR_INVALIDO' at line 12 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
-C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:9: warning: no uniquely matching class member found for 
+  'static const std::string TesteSenha::VALOR_INVALIDO' at line 14 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
+  'static const std::string TesteHorario::VALOR_INVALIDO' at line 14 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
+  'static const std::string TesteNome::VALOR_INVALIDO' at line 14 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
+  'static const int TesteAvaliacao::VALOR_INVALIDO' at line 14 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
+  'static const std::string TesteData::VALOR_INVALIDO' at line 14 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
+  'static const int TesteDuracao::VALOR_INVALIDO' at line 14 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
+  'static const std::string TesteCodigo::VALOR_INVALIDO' at line 14 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
+C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:13: warning: no uniquely matching class member found for 
   void TesteDinheiro::Executar()
 Possible candidates:
-  'void TesteSenha::Executar()' at line 15 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
-  'void TesteHorario::Executar()' at line 15 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
-  'void TesteNome::Executar()' at line 15 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
-  'void TesteAvaliacao::Executar()' at line 16 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
-  'void TesteData::Executar()' at line 16 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
-  'void TesteDuracao::Executar()' at line 15 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
-  'void TesteCodigo::Executar()' at line 16 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
-C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:16: warning: no uniquely matching class member found for 
+  'void TesteSenha::Executar()' at line 17 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
+  'void TesteHorario::Executar()' at line 17 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
+  'void TesteNome::Executar()' at line 17 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
+  'void TesteAvaliacao::Executar()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
+  'void TesteData::Executar()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
+  'void TesteDuracao::Executar()' at line 17 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
+  'void TesteCodigo::Executar()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
+C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:20: warning: no uniquely matching class member found for 
   void TesteDinheiro::Excluir()
 Possible candidates:
-  'void TesteSenha::Excluir()' at line 16 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
-  'void TesteHorario::Excluir()' at line 16 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
-  'void TesteNome::Excluir()' at line 16 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
-  'void TesteAvaliacao::Excluir()' at line 17 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
-  'void TesteData::Excluir()' at line 17 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
-  'void TesteDuracao::Excluir()' at line 16 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
-  'void TesteCodigo::Excluir()' at line 17 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
-C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:22: warning: no uniquely matching class member found for 
+  'void TesteSenha::Excluir()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
+  'void TesteHorario::Excluir()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
+  'void TesteNome::Excluir()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
+  'void TesteAvaliacao::Excluir()' at line 19 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
+  'void TesteData::Excluir()' at line 19 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
+  'void TesteDuracao::Excluir()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
+  'void TesteCodigo::Excluir()' at line 19 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
+C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:26: warning: no uniquely matching class member found for 
   void TesteDinheiro::Sucesso()
 Possible candidates:
-  'void TesteSenha::Sucesso()' at line 17 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
-  'void TesteHorario::Sucesso()' at line 17 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
-  'void TesteNome::Sucesso()' at line 17 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
-  'void TesteAvaliacao::Sucesso()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
-  'void TesteData::Sucesso()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
-  'void TesteDuracao::Sucesso()' at line 17 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
-  'void TesteCodigo::Sucesso()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
-C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:39: warning: no uniquely matching class member found for 
+  'void TesteSenha::Sucesso()' at line 19 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
+  'void TesteHorario::Sucesso()' at line 19 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
+  'void TesteNome::Sucesso()' at line 19 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
+  'void TesteAvaliacao::Sucesso()' at line 20 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
+  'void TesteData::Sucesso()' at line 20 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
+  'void TesteDuracao::Sucesso()' at line 19 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
+  'void TesteCodigo::Sucesso()' at line 20 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
+C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:43: warning: no uniquely matching class member found for 
   void TesteDinheiro::Falha()
 Possible candidates:
-  'void TesteSenha::Falha()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
-  'void TesteHorario::Falha()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
-  'void TesteNome::Falha()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
-  'void TesteAvaliacao::Falha()' at line 19 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
-  'void TesteData::Falha()' at line 19 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
-  'void TesteDuracao::Falha()' at line 18 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
-  'void TesteCodigo::Falha()' at line 19 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
-C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:54: warning: no uniquely matching class member found for 
+  'void TesteSenha::Falha()' at line 20 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
+  'void TesteHorario::Falha()' at line 20 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
+  'void TesteNome::Falha()' at line 20 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
+  'void TesteAvaliacao::Falha()' at line 21 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
+  'void TesteData::Falha()' at line 21 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
+  'void TesteDuracao::Falha()' at line 20 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
+  'void TesteCodigo::Falha()' at line 21 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
+C:/projetos/Trabalho_1_TP1/cpp/testes/dominios/TesteDinhero.cpp:58: warning: no uniquely matching class member found for 
   int TesteDinheiro::run()
 Possible candidates:
-  'int TesteConta::run()' at line 28 of file C:/projetos/Trabalho_1_TP1/include/testes/entidades/TesteConta.h
-  'int TesteDestino::run()' at line 28 of file C:/projetos/Trabalho_1_TP1/include/testes/entidades/TesteDestino.h
-  'int TesteHospedagem::run()' at line 30 of file C:/projetos/Trabalho_1_TP1/include/testes/entidades/TesteHospedagem.h
-  'int TesteSenha::run()' at line 23 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
-  'int TesteHorario::run()' at line 23 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
-  'int TesteNome::run()' at line 23 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
-  'int TesteAvaliacao::run()' at line 24 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
-  'int TesteData::run()' at line 24 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
-  'int TesteAtividade::run()' at line 29 of file C:/projetos/Trabalho_1_TP1/include/testes/entidades/TesteAtividade.h
-  'int TesteDuracao::run()' at line 23 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
-  'int TesteViagem::run()' at line 31 of file C:/projetos/Trabalho_1_TP1/include/testes/entidades/TesteViagem.h
-  'int TesteCodigo::run()' at line 24 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
+  'int TesteConta::run()' at line 30 of file C:/projetos/Trabalho_1_TP1/include/testes/entidades/TesteConta.h
+  'int TesteDestino::run()' at line 30 of file C:/projetos/Trabalho_1_TP1/include/testes/entidades/TesteDestino.h
+  'int TesteHospedagem::run()' at line 32 of file C:/projetos/Trabalho_1_TP1/include/testes/entidades/TesteHospedagem.h
+  'int TesteSenha::run()' at line 25 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteSenha.h
+  'int TesteHorario::run()' at line 25 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteHorario.h
+  'int TesteNome::run()' at line 25 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteNome.h
+  'int TesteAvaliacao::run()' at line 26 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteAvaliacao.h
+  'int TesteData::run()' at line 26 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteData.h
+  'int TesteAtividade::run()' at line 31 of file C:/projetos/Trabalho_1_TP1/include/testes/entidades/TesteAtividade.h
+  'int TesteDuracao::run()' at line 25 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteDuracao.h
+  'int TesteViagem::run()' at line 33 of file C:/projetos/Trabalho_1_TP1/include/testes/entidades/TesteViagem.h
+  'int TesteCodigo::run()' at line 26 of file C:/projetos/Trabalho_1_TP1/include/testes/dominios/TesteCodigo.h
 C:/projetos/Trabalho_1_TP1/include/entidades/Atividade.h:27: warning: Atividade::Atividade has @param documentation sections but no arguments
 C:/projetos/Trabalho_1_TP1/include/entidades/Atividade.h:85: warning: argument 'duracao' of command @param is not found in the argument list of Atividade::setAvaliacao(const Avaliacao &avaliacao)
 C:/projetos/Trabalho_1_TP1/include/entidades/Atividade.h:85: warning: The following parameter of Atividade::setAvaliacao(const Avaliacao &avaliacao) is not documented:
