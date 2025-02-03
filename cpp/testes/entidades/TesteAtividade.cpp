@@ -32,7 +32,7 @@ void TesteAtividade::testarSucesso()
   {
     Codigo codigo(CODIGO_VALIDO);
     atividade->setCodigo(codigo);
-    if (atividade->getCodigo().getCodigo() != CODIGO_VALIDO)
+    if (atividade->getCodigo() != CODIGO_VALIDO)
     {
       status = FALHA;
     }

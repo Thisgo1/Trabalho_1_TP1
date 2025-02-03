@@ -1,10 +1,13 @@
 #ifndef CONTA_H
 #define CONTA_H
+#pragma once
 
 #include <string>
 #include <stdexcept>
 #include "../../include/dominios/Codigo.h"
 #include "../../include/dominios/Senha.h"
+
+
 
 // Aluno: Thiago Silva Ribeiro - 202037702
 

@@ -1,5 +1,6 @@
 #ifndef HORARIO_HPP
 #define HORARIO_HPP
+#pragma once
 
 #include <string>
 #include <stdexcept>

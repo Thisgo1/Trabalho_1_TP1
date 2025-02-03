@@ -28,173 +28,51 @@
 /// <h2> Créditos do Projeto </h2>
 /// <h3> Thiago Silva Ribeiro - 202037702. </h3>
 
-#include <iostream>
+#include "include\interfaces\apresentacao\InterfaceUsuario.h"
+#include "include\service\ServicoAutenticacao.h"
+#include "include\service\ServicoViagem.h"
+#include "include\ContainerUsuario.h"
+#include "include\ContainerViagens.h"
 
-// Aluno: Thiago Silva Ribeiro - 202037702
+#include "include\controllers\ControladorAutenticacao.h"
+#include "include\controllers\ControladorViagem.h"
+#include "include\service\ServicoAutenticacao.h"
+#include "include\service\ServicoViagem.h"
+#include "include\ContainerUsuario.h"
+#include "include\ContainerViagens.h"
 
-// Teste unitarios de dominios
-#include "include\testes\dominios\TesteAvaliacao.h"
-#include "include\testes\dominios\TesteCodigo.h"
-#include "include\testes\dominios\TesteSenha.h"
-#include "include\testes\dominios\TesteData.h"
-#include "include\testes\dominios\TesteNome.h"
-#include "include\testes\dominios\TesteDinheiro.h"
-#include "include\testes\dominios\TesteHorario.h"
-#include "include\testes\dominios\TesteDuracao.h"
+/**
+ * @file main.cpp
+ * @brief Ponto de entrada para a aplicação.
+ *
+ * Este arquivo contém a função principal que inicializa os containers,
+ * serviços, controladores e a interface do usuário para a aplicação.
+ */
 
-// Teste unitarios de entidades
-#include "include\testes\entidades\TesteConta.h"
-#include "include\testes\entidades\TesteAtividade.h"
-#include "include\testes\entidades\TesteHospedagem.h"
-#include "include\testes\entidades\TesteDestino.h"
-#include "include\testes\entidades\TesteViagem.h"
+/**
+ * @brief Função principal da aplicação.
+ *
+ * Inicializa os containers para usuários e viagens, configura os serviços
+ * de autenticação e de viagens, e cria os controladores correspondentes.
+ * Finalmente, inicializa a interface do usuário e exibe o menu principal.
+ *
+ */
+int main() {
+    // Containers
+    ContainerUsuarios containerUsuarios;
+    ContainerViagens containerViagens;
 
-/// @brief Função principal que executa os testes unitários dos domínios e entidades .
+    // Serviços
+    ServicoAutenticacao servicoAuth(containerUsuarios);
+    ServicoViagem servicoViagem(containerViagens);
 
-int main()
-{
-    // Teste unitarios implementados com switch case para verificar se o teste foi bem sucedido ou não.
-    TesteAvaliacao testeAvaliacao;
-    switch (testeAvaliacao.run())
-    {
-    case testeAvaliacao.SUCESSO:
-        std::cout << "SUCESSO - AVALIACAO" << std::endl;
-        break;
-    case testeAvaliacao.FALHA:
-        std::cout << "FALHA - AVALIACAO" << std::endl;
-        break;
-    }
+    // Controladores
+    ControladorAutenticacao controladorAuth(&servicoAuth);
+    ControladorViagem controladorViagem(&servicoViagem);
 
-    TesteCodigo testeCodigo;
-    switch (testeCodigo.run())
-    {
-    case testeCodigo.SUCESSO:
-        std::cout << "SUCESSO - CODIGO " << std::endl;
-        break;
-    case testeCodigo.FALHA:
-        std::cout << "FALHA - CODIGO" << std::endl;
-        break;
-    }
+    // Interface de usuário
+    InterfaceUsuario interface(&controladorAuth, &controladorViagem);
+    interface.mostrarMenu();
 
-    TesteSenha testeSenha;
-    switch (testeSenha.run())
-    {
-    case testeSenha.SUCESSO:
-        std::cout << "SUCESSO - SENHA" << std::endl;
-        break;
-    case testeSenha.FALHA:
-        std::cout << "FALHA - SENHA" << std::endl;
-        break;
-    }
-
-    TesteData testeData;
-    switch (testeData.run())
-    {
-    case testeData.SUCESSO:
-        std::cout << "SUCESSO - DATA" << std::endl;
-        break;
-    case testeData.FALHA:
-        std::cout << "FALHA - DATA" << std::endl;
-        break;
-    }
-
-    TesteNome testeNome;
-    switch (testeNome.run())
-    {
-    case testeNome.SUCESSO:
-        std::cout << "SUCESSO - NOME" << std::endl;
-        break;
-    case testeNome.FALHA:
-        std::cout << "FALHA - NOME" << std::endl;
-        break;
-    }
-
-    TesteDinheiro testeDinheiro;
-    switch (testeDinheiro.run())
-    {
-    case testeDinheiro.SUCESSO:
-        std::cout << "SUCESSO - DINHEIRO" << std::endl;
-        break;
-    case testeDinheiro.FALHA:
-        std::cout << "FALHA - DINHEIRO" << std::endl;
-        break;
-    }
-
-    TesteHorario testeHorario;
-    switch (testeHorario.run())
-    {
-    case testeHorario.SUCESSO:
-        std::cout << "SUCESSO - HORARIO" << std::endl;
-        break;
-    case testeHorario.FALHA:
-        std::cout << "FALHA - HORARIO" << std::endl;
-        break;
-    }
-
-    TesteDuracao testeDuracao;
-    switch (testeDuracao.run())
-    {
-    case testeDuracao.SUCESSO:
-        std::cout << "SUCESSO - DURACAO" << std::endl;
-        break;
-    case testeDuracao.FALHA:
-        std::cout << "FALHA - DURACAO" << std::endl;
-        break;
-    }
-
-    TesteConta testeConta;
-    switch (testeConta.run())
-    {
-    case testeConta.SUCESSO:
-        std::cout << "SUCESSO - CONTA" << std::endl;
-        break;
-    case testeConta.FALHA:
-        std::cout << "FALHA - CONTA" << std::endl;
-        break;
-    }
-
-    TesteAtividade testeAtividade;
-    switch (testeAtividade.run())
-    {
-    case testeAtividade.SUCESSO:
-        std::cout << "SUCESSO - ATIVIDADE" << std::endl;
-        break;
-    case testeAtividade.FALHA:
-        std::cout << "FALHA - ATIVIDADE" << std::endl;
-        break;
-    }
-
-    TesteHospedagem testeHospedagem;
-    switch (testeHospedagem.run())
-    {
-    case testeHospedagem.SUCESSO:
-        std::cout << "SUCESSO - HOSPEDAGEM" << std::endl;
-        break;
-    case testeHospedagem.FALHA:
-        std::cout << "FALHA - HOSPEDAGEM" << std::endl;
-        break;
-    }
-
-    TesteDestino testeDestino;
-    switch (testeDestino.run())
-    {
-    case testeDestino.SUCESSO:
-        std::cout << "SUCESSO - DESTINO" << std::endl;
-        break;
-    case testeDestino.FALHA:
-        std::cout << "FALHA - DESTINO" << std::endl;
-        break;
-    }
-
-    TesteViagem testeViagem;
-    switch (testeViagem.run())
-    {
-    case testeViagem.SUCESSO:
-        std::cout << "SUCESSO - VIAGEM" << std::endl;
-        break;
-    case testeViagem.FALHA:
-        std::cout << "FALHA - VIAGEM" << std::endl;
-        break;
-    }
     return 0;
 }

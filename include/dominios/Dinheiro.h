@@ -1,5 +1,6 @@
 #ifndef DINHEIRO_H
 #define DINHEIRO_H
+#pragma once
 
 #include <stdexcept>
 #include <iomanip>

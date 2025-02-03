@@ -1,5 +1,6 @@
 #ifndef ATIVIDADE_H
 #define ATIVIDADE_H
+#pragma once
 
 #include "..\include\dominios\Codigo.h"
 #include "..\include\dominios\Nome.h"
@@ -44,7 +45,7 @@ public:
       const Avaliacao &avaliacao) : codigo(codigo), nome(nome), data(data), horario(horario), duracao(duracao), avaliacao(avaliacao) {}
 
   // Métodos Getters
-  Codigo getCodigo() const { return codigo; }
+  std::string getCodigo() const { return codigo.getCodigo(); }
   /// @brief Retorna o valor de código.
   ///@return Uma string com 6 caracteres.
   Nome getNome() const { return nome; }

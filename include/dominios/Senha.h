@@ -1,5 +1,6 @@
 #ifndef SENHA_H
 #define SENHA_H
+#pragma once
 
 #include <stdexcept>
 #include <string>
@@ -89,6 +90,15 @@ public:
     /// @brief O metodo setValor() atribui um valor de senha.
     /// @param valor uma string de 5 caracteres numéricos.
     /// @throw invalid_argument caso o valor passado não esteja entre 5 caracteres numéricos, sem dígitos duplicados e sem sequências crescentes ou decrescentes.
+
+    // Operador de comparação
+    bool operator==(const std::string &outraSenha) const
+    {
+        return valor == outraSenha;
+    }
+    /// @brief O operador de comparação permite comparar um objeto Senha com uma string.
+    /// @param outraSenha uma string de 5 caracteres numéricos.
+    /// @return um booleano indicando se a senha é igual à string fornecida.
 };
 
 #endif // SENHA_H

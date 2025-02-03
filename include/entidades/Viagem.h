@@ -1,5 +1,6 @@
 #ifndef VIAGEM_H
 #define VIAGEM_H
+#pragma once
 
 #include "..\include\dominios\Codigo.h"
 #include "..\include\dominios\Nome.h"

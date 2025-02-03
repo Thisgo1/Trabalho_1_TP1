@@ -1,5 +1,6 @@
 #ifndef DATA_HPP
 #define DATA_HPP
+#pragma once
 
 #include <string>
 #include <stdexcept>
@@ -28,7 +29,7 @@ private:
         int mes = std::stoi(data.substr(3, 2));
         int ano = std::stoi(data.substr(6, 4));
 
-        if (mes < 1 || mes > 12 || dia < 1 || ano < 1900 || ano > 2099)
+        if (mes < 1 || mes > 12 || dia < 1 || ano < 2000 || ano > 2099)
         {
             return false;
         }

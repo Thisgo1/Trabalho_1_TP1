@@ -1,5 +1,6 @@
 #ifndef DESTINO_H
 #define DESTINO_H
+#pragma once
 
 #include "..\include\dominios\Codigo.h"
 #include "..\include\dominios\Nome.h"

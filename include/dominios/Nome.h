@@ -1,5 +1,6 @@
 #ifndef NOME_H
 #define NOME_H
+#pragma once
 
 #include <string>
 #include <stdexcept>

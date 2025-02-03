@@ -1,6 +1,7 @@
 #ifndef DURACAO_H
 #define DURACAO_H
 #include <iostream>
+#pragma once
 
 // Aluno: Thiago Silva Ribeiro - 202037702
 

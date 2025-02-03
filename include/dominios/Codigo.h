@@ -1,5 +1,6 @@
 #ifndef CODIGO_H
 #define CODIGO_H
+#pragma once
 
 #include <string>
 #include <regex>

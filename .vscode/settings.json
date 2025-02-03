@@ -112,6 +112,8 @@
     "typeinfo": "cpp",
     "variant": "cpp",
     "set": "cpp",
-    "iomanip": "cpp"
+    "iomanip": "cpp",
+    "cstdarg": "cpp",
+    "map": "cpp"
   }
 }

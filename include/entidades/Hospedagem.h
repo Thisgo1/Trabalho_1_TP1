@@ -1,5 +1,6 @@
 #ifndef HOSPEDAGEM_H
 #define HOSPEDAGEM_H
+#pragma once
 
 #include "..\include\dominios\Codigo.h"
 #include "..\include\dominios\Nome.h"

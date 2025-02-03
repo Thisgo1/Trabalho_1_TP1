@@ -2,19 +2,24 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Release" />
-	<File name="include\dominios\Avaliacao.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1247" topLine="22" />
+			<Cursor1 position="2187" topLine="41" />
 		</Cursor>
 	</File>
-	<File name="main.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="cpp\ContainerUsuarios.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3578" topLine="0" />
+			<Cursor1 position="532" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="cpp\testes\entidades\TesteHospedagem.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="cpp\service\ServicoUsuario.cpp" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1348" topLine="29" />
+			<Cursor1 position="103" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="cpp\testes\entidades\TesteAtividade.cpp" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1178" topLine="9" />
 		</Cursor>
 	</File>
 	<File name="cpp\testes\dominios\TesteDinhero.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -22,9 +27,59 @@
 			<Cursor1 position="451" topLine="18" />
 		</Cursor>
 	</File>
-	<File name="cpp\testes\entidades\TesteAtividade.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="cpp\interfaces\apresentacao\InterfaceUsuario.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="668" topLine="0" />
+			<Cursor1 position="183" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="cpp\service\ServicoAutenticacao.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="727" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\service\ServicoUsuario.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="715" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="cpp\testes\entidades\TesteHospedagem.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1348" topLine="29" />
+		</Cursor>
+	</File>
+	<File name="include\entidades\Atividade.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3903" topLine="61" />
+		</Cursor>
+	</File>
+	<File name="cpp\service\ServicoViagem.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="675" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\entidades\Conta.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="412" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\dominios\Avaliacao.h" open="1" top="1" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="351" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="cpp\StubServicoAutenticacao.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1095" topLine="2" />
+		</Cursor>
+	</File>
+	<File name="cpp\dominios\Avaliacao.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="89" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\interfaces\apresentacao\InterfaceUsuario.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="311" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
